@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edtUserName"
+                android:background="#fff"
+                android:textColor="#000"
+                android:ems="10"
+                android:textColorHint="#6c6c6c"
+                android:padding="5dp"
+                android:layout_marginTop="130dp"
+                android:hint="Tên đăng nhập" />
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edtPassWord"
+                android:background="#fff"
+                android:textColor="#000"
+                android:ems="10"
+                android:textColorHint="#6c6c6c"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:hint="Mật khẩu" />
+            <Button
+                android:text="Đăng nhập"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_height="50dp"
+                android:id="@+id/btnDangNhap" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
