@@ -2,4 +2,7 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">QLKHO.Android</string>
+    <string name="ThongKe">Thống Kê</string>
+    <string name="TimKiem">Tìm Kiếm</string>
+    <string name="HangHoa">Hàng Hóa</string>
 </resources>
