@@ -46,7 +46,7 @@
         android:layout_centerVertical="true"
         android:textSize="25dp"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/txtDescription"
         android:layout_width="match_parent"

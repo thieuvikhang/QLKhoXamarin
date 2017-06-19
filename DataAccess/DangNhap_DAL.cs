@@ -19,5 +19,19 @@ namespace DataAccess
             };
             return nv;
         }
+        public string LayChuoiMaHoa(string taiKhoan)
+        {
+            var sql = $"Select `MaHoa` from `NhanVien` WHERE `TaiKhoan` LIKE '{taiKhoan}' LIMIT 1";
+            if (_data.Execute(sql) == false) return null;
+            var dt = _data.LoadData(sql);
+            return dt.Rows[0][0].ToString();
+        }
+
+        public bool DangKy(NhanVienObject nhanVien)
+        {
+            var sql = "INSERT INTO `NhanVien` (`MaNhanVien`, `TenNhanVien`, `GioiTinh`, `NgaySinh`, `SDT`, `Email`, `DiaChi`, `TaiKhoan`, `MatKhau`, `MaHoa`, `MaChucVu`) " +
+                      $"VALUES (NULL,'{nhanVien.TenNhanVien}', '{nhanVien.GioiTinh}', '{nhanVien.NgaySinh}', '{nhanVien.DienThoai}', '{nhanVien.Email}', '{nhanVien.DiaChi}', '{nhanVien.TaiKhoan}', '{nhanVien.MatKhau}', '{nhanVien.MaHoa}', '{nhanVien.MaPhanQuyen}');";
+            return _data.Execute(sql);
+        }
     }
 }

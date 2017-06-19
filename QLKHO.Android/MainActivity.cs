@@ -1,7 +1,5 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
-using Android.Graphics.Drawables;
 
 namespace QLKHO.Android
 {
