@@ -7,7 +7,7 @@ using Business;
 
 namespace QLKHO.Android
 {
-    [Activity(Label = "Đăng Nhập", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Đăng Nhập")]
     public class DangNhapActivity : Activity
     {
         private readonly DangNhapBus _dangNhapBus = new DangNhapBus();
