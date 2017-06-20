@@ -87,6 +87,7 @@
     <Compile Include="CTHHFragment .cs" />
     <Compile Include="DangKy_Activity.cs" />
     <Compile Include="DangNhap_Activity.cs" />
+    <Compile Include="DatePickerFragment.cs" />
     <Compile Include="DSHangHoaFragment.cs" />
     <Compile Include="GestureListener.cs" />
     <Compile Include="HangHoa.cs" />

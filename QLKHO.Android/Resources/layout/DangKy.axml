@@ -16,7 +16,7 @@
             <EditText
                 android:id="@+id/txtTen"
                 android:layout_width="383.0dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="50"
@@ -27,7 +27,7 @@
             <EditText
                 android:id="@+id/txtSDT"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="20"
@@ -39,7 +39,7 @@
             <EditText
                 android:id="@+id/txtDiaChi"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="100"
@@ -50,7 +50,7 @@
             <EditText
                 android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="10"
@@ -59,21 +59,20 @@
                 android:padding="5dp"
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
-            <EditText
-                android:id="@+id/txtNgaySinh"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
+            <Button
+                android:id="@+id/date_select_button"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
-                android:ems="50"
+                android:ems="10"
                 android:textColorHint="#6c6c6c"
-                android:padding="5dp"
                 android:layout_marginBottom="7dp"
-                android:hint="Ngày Sinh"
-                android:inputType="date" />
+                android:padding="5dp"
+                android:text="Vui lòng chọn ngày"
+                android:layout_width="match_parent" />
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
@@ -101,19 +100,46 @@
                     android:layout_weight="2"
                     android:text="Nữ" />
             </RadioGroup>
-            <Spinner
-                android:id="@+id/spiner1"
+            <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginBottom="7dp"
+                android:layout_height="40dp"
                 android:background="#fff"
-                android:backgroundTint="#000"
-                android:padding="5dp"
-                android:entries="@array/planets_array" />
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rdBH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Bán Hàng" />
+                <RadioButton
+                    android:id="@+id/rdQLK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:text="QL Kho" />
+                <RadioButton
+                    android:id="@+id/rdQLBH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:text="QL Bán Hàng" />
+                <RadioButton
+                    android:id="@+id/rdAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:text="Admin" />
+            </RadioGroup>
             <EditText
                 android:id="@+id/txtTaiKhoan"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="30"
@@ -124,7 +150,7 @@
             <EditText
                 android:id="@+id/txtMatKhau"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="#fff"
                 android:textColor="#000"
                 android:ems="40"
@@ -136,7 +162,7 @@
             <Button
                 android:id="@+id/btnDangKy"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_marginTop="7dp"
                 android:background="@android:color/holo_blue_dark"
                 android:text="Đăng Ký" />
