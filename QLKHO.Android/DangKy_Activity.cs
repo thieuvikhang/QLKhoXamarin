@@ -44,6 +44,7 @@ namespace QLKHO.Android
         {
             int maChucVu;
             var sp = "Quản trị viên";
+            sp = _spinner.TextDirection.ToString();
             switch (sp)
             {
                 case "Quản lý kho":

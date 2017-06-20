@@ -39,7 +39,7 @@
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="MySql.Data.CF">
-      <HintPath>..\packages\MySql.Data.CF.dll</HintPath>
+      <HintPath>..\dll\MySql.Data.CF.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

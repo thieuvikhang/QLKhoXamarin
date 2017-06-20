@@ -7,7 +7,7 @@ using Business;
 
 namespace QLKHO.Android
 {
-    [Activity(Label = "Đăng Nhập")]
+    [Activity(Label = "Đăng Nhập"/*, MainLauncher = true*/)]
     public class DangNhapActivity : Activity
     {
         private readonly DangNhapBus _dangNhapBus = new DangNhapBus();
@@ -50,7 +50,6 @@ namespace QLKHO.Android
             }
             Toast.MakeText(this, _msg, ToastLength.Long).Show();
         }
-
         public void Clear()
         {
             _edtUserName.Text = "";

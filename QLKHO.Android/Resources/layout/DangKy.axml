@@ -109,7 +109,7 @@
                 android:background="#fff"
                 android:backgroundTint="#000"
                 android:padding="5dp"
-                android:entries="@array/list" />
+                android:entries="@array/planets_array" />
             <EditText
                 android:id="@+id/txtTaiKhoan"
                 android:layout_width="match_parent"

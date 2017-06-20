@@ -5,10 +5,11 @@
     <string name="ThongKe">Thống Kê</string>
     <string name="TimKiem">Tìm Kiếm</string>
     <string name="HangHoa">Hàng Hóa</string>
-  <string-array name="list">
-    <item>Bán hàng</item>
-    <item>Quản lý kho</item>
-    <item>Quản lý bán hàng</item>
-    <item>Quản trị viên</item>
-  </string-array>
+    <string name="planet_prompt">Chọn chức vụ</string>
+    <string-array name="planets_array">
+      <item>Bán hàng</item>
+      <item>Quản lý kho</item>
+      <item>Quản lý bán hàng</item>
+      <item>Quản trị viên</item>
+    </string-array>
 </resources>
