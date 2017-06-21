@@ -38,4 +38,10 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Delete" />
+  <Button
+      android:id="@+id/clear"
+      android:onClick="onClear"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Clear"/>
 </TableLayout>

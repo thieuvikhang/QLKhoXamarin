@@ -13,6 +13,7 @@ using static QLKHO.Android.MenuActivity;
 using Android.Views.Animations;
 using Android.Graphics;
 using DataTransferObject;
+using Business;
 
 
 namespace QLKHO.Android
@@ -22,27 +23,39 @@ namespace QLKHO.Android
     {
         ListView lvKho;
         EditText tenKho, diaChi, nhanVien;
-        List<KhoObject> listKho;
+        List<KhoObject> listKho = new List<KhoObject>();
+        private readonly Kho_BUS _khoBus = new Kho_BUS();
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(savedInstanceState);         
 
-           
+            SetContentView(Resource.Layout.DSKho);
 
-            SetContentView(Resource.Layout.Kho);
+            lvKho = FindViewById<ListView>(Resource.Id.lvKho);
 
-           
+            listKho = _khoBus.dsKho();
 
-            this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+            Kho_Adapter adapter = new Kho_Adapter(this, listKho);
+            lvKho.Adapter = adapter;
+
+            //this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
             //adding audio tab
-            AddTab("Kho", Resource.Drawable.Icon, new DS_Kho_Fragment());
+            //AddTab("Kho", Resource.Drawable.Icon, new DS_Kho_Fragment());
 
-            //adding video tab 
-            AddTab("Chi Tiết", Resource.Drawable.Icon, new CT_Kho_Fragment());
+            ////adding video tab 
+            //AddTab("Chi Tiết", Resource.Drawable.Icon, new CT_Kho_Fragment());
             // Create your application here
+            //lvKho = FindViewById<ListView>(Resource.Id.lvKho);
+            //lvKho = FindViewById<ListView>(Resource.Id.lvKho);
 
-            //lvKho.ItemClick += lvKho_Click;          
+            //var dskho = _khoBus.dsKho();
+            //Kho_Adapter adapter = new Kho_Adapter(this, dskho);
+            //lvKho.Adapter = adapter;
+
+            lvKho.ItemClick += lvKho_ItemClick;
+
+
 
         }
 
@@ -59,20 +72,38 @@ namespace QLKHO.Android
             this.ActionBar.AddTab(tab);
         }
 
-        private void lvKho_Click(object sender, AdapterView.ItemClickEventArgs e)
+        private void lvKho_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            tenKho = FindViewById<EditText>(Resource.Id.TenKho);
-            diaChi = FindViewById<EditText>(Resource.Id.DiaChiKho);
-            nhanVien = FindViewById<EditText>(Resource.Id.NhanVien);
-            lvKho = FindViewById<ListView>(Resource.Id.lvKho);
+            //tenKho = FindViewById<EditText>(Resource.Id.TenKho);
+            //diaChi = FindViewById<EditText>(Resource.Id.DiaChiKho);
+            //  nhanVien = FindViewById<EditText>(Resource.Id.NhanVien);
+            //    lvKho = FindViewById<ListView>(Resource.Id.lvKho);
 
+            //Intent intent = new Intent(this, typeof(ThongKe_Activity));
+            //Bundle bundle = new Bundle();
+
+            //bundle.PutString("tenkho", listKho[e.Position].TenKho);
+            //bundle.PutString("diachi", listKho[e.Position].DiaChi);
+            //intent.PutExtra("datalist", bundle);
+
+            //StartActivity(intent);
+
+
+            Intent it = new Intent(this, typeof(CT_Kho_Activity));
             Bundle bundle = new Bundle();
-            tenKho.Text = listKho[e.Position].TenKho;
-            diaChi.Text = listKho[e.Position].DiaChi;
-            nhanVien.Text = (listKho[e.Position].MaNhanVien).ToString();   
-        }
+            bundle.PutString("tenkho", listKho[e.Position].TenKho);
+            bundle.PutString("diachi", listKho[e.Position].DiaChi);
+            bundle.PutString("nhanvien", listKho[e.Position].DiaChi);
+            it.PutExtra("dataKho", bundle);
+            StartActivity(it);
+            //var item = this.lvKho.GetItemAtPosition(e.Position);
 
+            //Make a toast with the item name just to show it was clicked
+            Toast.MakeText(this, "" + " Clicked!", ToastLength.Short).Show();
+
+        }
         
+
 
     }
 }

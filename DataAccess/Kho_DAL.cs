@@ -35,5 +35,11 @@ namespace DataAccess
             }
             return ds;            
         }
+
+        public bool themKho(KhoObject kho)
+        {
+            string sql = $"INSERT INTO `Kho`(`TenKho`, `DiaChi`, `MaNhanVien`) VALUES ('{kho.TenKho}','{kho.DiaChi}','{kho.MaNhanVien}')";
+            return _data.Execute(sql);
+        }
     }
 }

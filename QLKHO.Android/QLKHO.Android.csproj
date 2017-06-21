@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CTHHFragment .cs" />
+    <Compile Include="CT_Kho_Activity.cs" />
     <Compile Include="CT_Kho_Fragment.cs" />
     <Compile Include="DangKy_Activity.cs" />
     <Compile Include="DangNhap_Activity.cs" />

@@ -17,8 +17,11 @@ namespace QLKHO.Android
     class DS_Kho_Fragment : Fragment
     {
         ListView lvKho;
+        //EditText tenKho, diaChi, nhanVien;
         List<KhoObject> dsKho;
         private Kho_BUS _khoBUS = new Kho_BUS();
+
+        
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -33,10 +36,18 @@ namespace QLKHO.Android
             Kho_Adapter adapter = new Kho_Adapter(this.Activity, dsKho);
             lvKho.Adapter = adapter;
 
+            //tenKho = view.FindViewById<EditText>(Resource.Id.TenKho);
+            //diaChi = view.FindViewById<EditText>(Resource.Id.DiaChiKho);
+            //nhanVien = view.FindViewById<EditText>(Resource.Id.NhanVien);
+
+           
             return view;
 
         }
 
         
+
+
+
     }
 }

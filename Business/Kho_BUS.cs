@@ -21,5 +21,10 @@ namespace Business
         {
             return _khoDal.danhSachKho();
         }
+
+        public bool themKho(KhoObject kho)
+        {
+            return _khoDal.themKho(kho);
+        }
     }
 }
