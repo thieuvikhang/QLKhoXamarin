@@ -7,11 +7,7 @@ using Business;
 
 namespace QLKHO.Android
 {
-<<<<<<< HEAD
     [Activity(Label = "Đăng Nhập", MainLauncher = true)]
-=======
-    [Activity(Label = "Đăng Nhập" ,MainLauncher = true)]
->>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
     public class DangNhapActivity : Activity
     {
         private readonly DangNhapBus _dangNhapBus = new DangNhapBus();

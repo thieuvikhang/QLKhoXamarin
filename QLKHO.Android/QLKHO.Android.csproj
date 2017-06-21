@@ -90,14 +90,10 @@
     <Compile Include="DangNhap_Activity.cs" />
     <Compile Include="DatePickerFragment.cs" />
     <Compile Include="DSHangHoaFragment.cs" />
-<<<<<<< HEAD
     <Compile Include="DS_Kho_Fragment.cs" />
     <Compile Include="GestureListener.cs" />
-    <Compile Include="HangHoa_Activity.cs" />
-=======
-    <Compile Include="GestureListener.cs" />
     <Compile Include="HangHoa.cs" />
->>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
+    <Compile Include="HangHoa_Activity.cs" />
     <Compile Include="HHAdapter.cs" />
     <Compile Include="Kho_Activity.cs" />
     <Compile Include="Kho_Adapter.cs" />
@@ -132,7 +128,6 @@
     <AndroidResource Include="Resources\layout\DangKy.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-<<<<<<< HEAD
     <AndroidResource Include="Resources\layout\MenuCustomLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -148,9 +143,7 @@
     <AndroidResource Include="Resources\layout\CT_Kho.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-=======
     <AndroidResource Include="Resources\layout\MenuCustomLayout.axml" />
->>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">

@@ -9,11 +9,7 @@ using Android.Content;
 
 namespace QLKHO.Android
 {
-<<<<<<< HEAD
-    [Activity(Label = "Đăng Ký")]
-=======
     [Activity(Label = "Đăng Ký" /*,MainLauncher = true*/)]
->>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
     public class DangKyActivity : Activity
     {
         private readonly DangNhapBus _dangNhapBus = new DangNhapBus();

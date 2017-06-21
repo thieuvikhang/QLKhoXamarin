@@ -4,8 +4,8 @@ using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using Business;
 using DataTransferObject;
+using Business;
 
 namespace QLKHO.Android
 {
