@@ -5,6 +5,7 @@
     <string name="ThongKe">Thống Kê</string>
     <string name="TimKiem">Tìm Kiếm</string>
     <string name="HangHoa">Hàng Hóa</string>
+<<<<<<< HEAD
     <string name="DangKy">Đăng Ký</string>
     <string name="Kho">Kho</string>
   <string-array name="list">
@@ -13,4 +14,13 @@
     <item>Quản lý bán hàng</item>
     <item>Quản trị viên</item>
   </string-array>
+=======
+    <string name="planet_prompt">Chọn chức vụ</string>
+    <string-array name="planets_array">
+      <item>Bán hàng</item>
+      <item>Quản lý kho</item>
+      <item>Quản lý bán hàng</item>
+      <item>Quản trị viên</item>
+    </string-array>
+>>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
 </resources>

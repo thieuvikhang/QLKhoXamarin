@@ -25,6 +25,14 @@
         public int MaLoaiHang { get; set; }
         public int MaNSX { get; set; }
     }
+<<<<<<< HEAD
 
 
+=======
+    public class ChucVuObject
+    {
+        public int MaChucVu { get; set; }
+        public string TenChucVu { get; set; }
+    }
+>>>>>>> a65ef3976497add46214cb421aa723bf9dd70e08
 }
