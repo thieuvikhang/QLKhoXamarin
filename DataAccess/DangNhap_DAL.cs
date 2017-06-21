@@ -29,7 +29,8 @@ namespace DataAccess
 
         public bool DangKy(NhanVienObject nhanVien)
         {
-            var sql = $"CALL DangKy('{nhanVien.TenNhanVien}', '{nhanVien.GioiTinh}', '{nhanVien.NgaySinh}', '{nhanVien.DienThoai}', '{nhanVien.Email}', '{nhanVien.DiaChi}', '{nhanVien.TaiKhoan}', '{nhanVien.MatKhau}', '{nhanVien.MaHoa}', '{nhanVien.MaPhanQuyen}')";
+            var sql = $"CALL DangKy('{nhanVien.TenNhanVien}', '{nhanVien.GioiTinh}', '{nhanVien.NgaySinh}', '{nhanVien.DienThoai}', '{nhanVien.Email}', " +
+                        $"'{nhanVien.DiaChi}', '{nhanVien.TaiKhoan}', '{nhanVien.MatKhau}', '{nhanVien.MaHoa}', '{nhanVien.MaPhanQuyen}')";
             return _data.Execute(sql);
         }
     }

@@ -9,13 +9,13 @@ using Android.Content;
 
 namespace QLKHO.Android
 {
-    [Activity(Label = "Đăng Ký" /*,MainLauncher = true*/)]
+    [Activity(Label = "Đăng Ký", MainLauncher = true)]
     public class DangKyActivity : Activity
     {
         private readonly DangNhapBus _dangNhapBus = new DangNhapBus();
         private Button _btnDangKy, _dateSelectButton;
         private EditText _txtTen, _txtSdt, _txtDiaChi, _txtEmail, _txtTaiKhoan, _txtMatKhau;
-        private RadioButton _rdNam, _rdNu, _rdBH, _rdQLBH, _rdQLK, _rdAdmin;
+        private RadioButton _rdNam, _rdBh, _rdQlbh, _rdQlk;
         private string _ngaySinh;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,24 +30,20 @@ namespace QLKHO.Android
             _txtMatKhau = FindViewById<EditText>(Resource.Id.txtMatKhau);
 
             _rdNam = FindViewById<RadioButton>(Resource.Id.rdNam);
-            _rdNu = FindViewById<RadioButton>(Resource.Id.rdNu);
-            _rdBH = FindViewById<RadioButton>(Resource.Id.rdBH);
-            _rdQLBH = FindViewById<RadioButton>(Resource.Id.rdQLBH);
-            _rdQLK = FindViewById<RadioButton>(Resource.Id.rdQLK);
-            _rdAdmin = FindViewById<RadioButton>(Resource.Id.rdAdmin);
+            _rdBh = FindViewById<RadioButton>(Resource.Id.rdBH);
+            _rdQlbh = FindViewById<RadioButton>(Resource.Id.rdQLBH);
+            _rdQlk = FindViewById<RadioButton>(Resource.Id.rdQLK);
 
             _btnDangKy = FindViewById<Button>(Resource.Id.btnDangKy);
+            _dateSelectButton = FindViewById<Button>(Resource.Id.date_select_button);
 
             _btnDangKy.Click += BtnDangKy_Click;
-            
-            _dateSelectButton = FindViewById<Button>(Resource.Id.date_select_button);
             _dateSelectButton.Click += DateSelect_OnClick;
-
             // Create your application here
         }
         private void BtnDangKy_Click(object sender, EventArgs e)
         {
-            int maChucVu = _rdBH.Checked ? 1 : _rdQLK.Checked ? 2 : _rdQLBH.Checked ? 3 : 4;
+            var maChucVu = _rdBh.Checked ? 1 : _rdQlk.Checked ? 2 : _rdQlbh.Checked ? 3 : 4;
             var nhanVien = new NhanVienObject
             {
                 TenNhanVien = _txtTen.Text,
@@ -68,14 +64,14 @@ namespace QLKHO.Android
             }
             else
             {
-                Toast.MakeText(this, $"Đăng ký thất bại", ToastLength.Long).Show();
+                Toast.MakeText(this, "Đăng ký thất bại", ToastLength.Long).Show();
                 var intent = new Intent(this, typeof(DangKyActivity));
                 StartActivity(intent);
             }
         }
         void DateSelect_OnClick(object sender, EventArgs eventArgs)
         {
-            DatePickerFragment frag = DatePickerFragment.NewInstance(delegate (DateTime time)
+            var frag = DatePickerFragment.NewInstance(delegate (DateTime time)
             {
                 _dateSelectButton.Text = time.ToString("dd-MM-yyyy");
                 _ngaySinh = time.ToString("yyyy-MM-dd");

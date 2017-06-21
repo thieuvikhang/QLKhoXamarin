@@ -1,5 +1,4 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.Graphics;
 using Android.OS;
 using Android.Views;
@@ -181,10 +180,6 @@ namespace QLKHO.Android
             }
         }
 
-
-
-
-
         //MenuListAdapterClass
         public class MenuListAdapterClass : BaseAdapter<string>
         {
@@ -226,7 +221,7 @@ namespace QLKHO.Android
                     objMenuListViewHolderClass.txtMnuText = view.FindViewById<TextView>(Resource.Id.txtMnuText);
                     objMenuListViewHolderClass.ivMenuImg = view.FindViewById<ImageView>(Resource.Id.ivMenuImg);
 
-                    objMenuListViewHolderClass.initialize(view);
+                    objMenuListViewHolderClass.Initialize(view);
                     view.Tag = objMenuListViewHolderClass;
                 }
                 else
@@ -235,10 +230,7 @@ namespace QLKHO.Android
                 }
                 objMenuListViewHolderClass.viewClicked = () =>
                 {
-                    if (actionMenuSelected != null)
-                    {
-                        actionMenuSelected(_mnuText[position]);
-                    }
+                    actionMenuSelected?.Invoke(_mnuText[position]);
                 };
                 objMenuListViewHolderClass.txtMnuText.Text = _mnuText[position];
                 objMenuListViewHolderClass.ivMenuImg.SetImageResource(_mnuUrl[position]);
@@ -251,7 +243,7 @@ namespace QLKHO.Android
             internal Action viewClicked { get; set; }
             internal TextView txtMnuText;
             internal ImageView ivMenuImg;
-            public void initialize(View view)
+            public void Initialize(View view)
             {
                 view.Click += delegate
                 {
