@@ -51,6 +51,7 @@
     <Compile Include="DangNhap_DAL.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="HangHoa_DAL.cs" />
+    <Compile Include="Kho_DAL.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

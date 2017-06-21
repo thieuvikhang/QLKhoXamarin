@@ -5,6 +5,8 @@
     <string name="ThongKe">Thống Kê</string>
     <string name="TimKiem">Tìm Kiếm</string>
     <string name="HangHoa">Hàng Hóa</string>
+    <string name="DangKy">Đăng Ký</string>
+    <string name="Kho">Kho</string>
     <string name="planet_prompt">Chọn chức vụ</string>
     <string-array name="planets_array">
       <item>Bán hàng</item>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/details"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dip"
+    android:stretchColumns="1">
+  <TableRow>
+    <TextView android:text="Tên Kho:" />
+    <EditText android:id="@+id/TenKho" />
+  </TableRow>
+
+  <TableRow>
+    <TextView android:text="Địa Chỉ:" />
+    <EditText android:id="@+id/DiaChiKho" />
+  </TableRow>
+  
+  <TableRow>
+    <TextView android:text="Nhân Viên:" />
+    <EditText android:id="@+id/NhanVien" />
+  </TableRow>
+
+  <Button
+      android:id="@+id/save"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Save" />
+  <Button
+      android:id="@+id/update"
+      android:onClick="onupdateClick"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Update" />
+  <Button
+      android:id="@+id/del"
+      android:onClick="ondelClick"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Delete" />
+</TableLayout>

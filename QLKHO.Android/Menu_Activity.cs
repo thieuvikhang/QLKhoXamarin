@@ -26,6 +26,7 @@ namespace QLKHO.Android
         TextView txtPageName;
         TextView txtDescription;
         ImageView btnDescExpander;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -46,16 +47,16 @@ namespace QLKHO.Android
 
         void TapEvent()
         {
-            //title bar menu icon
+            //Icon tiêu đề menu...
             menuIconImageView.Click += delegate (object sender, EventArgs e)
             {
                 if (!isSingleTapFired)
                 {
-                    FnToggleMenu();  //find definition in below steps
+                    FnToggleMenu();  //Tìm những sự kiện bên dưới...
                     isSingleTapFired = false;
                 }
             };
-            //bottom expandable description window
+            //Cửa sổ mô tả có thể mở rộng dưới cùng...
             btnDescExpander.Click += delegate (object sender, EventArgs e)
             {
                 FnDescriptionWindowToggle();
@@ -64,7 +65,7 @@ namespace QLKHO.Android
 
         void FnInitialization()
         {
-            //gesture initialization
+            //Khởi tạo các sự kiện...
             gestureListener = new GestureListener();
             gestureListener.LeftEvent += GestureLeft; //find definition in below steps
             gestureListener.RightEvent += GestureRight;
@@ -78,7 +79,7 @@ namespace QLKHO.Android
             txtDescription = FindViewById<TextView>(Resource.Id.txtDescription);
             btnDescExpander = FindViewById<ImageView>(Resource.Id.btnImgExpander);
 
-            //changed sliding menu width to 3/4 of screen width 
+            //Đổi chiều rộng menu thành 3/4 chiều rộng màn hình...
             Display display = this.WindowManager.DefaultDisplay;
             var point = new Point();
             display.GetSize(point);
@@ -92,10 +93,11 @@ namespace QLKHO.Android
             }
         }
 
+        //Icon và chữ thanh tiêu đề...
         void FnBindMenu()
         {
-            string[] strMnuText = { GetString(Resource.String.ThongKe), GetString(Resource.String.TimKiem), GetString(Resource.String.HangHoa), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello) };
-            int[] strMnuUrl = { Resource.Drawable.ThongKe, Resource.Drawable.Search, Resource.Drawable.HangHoa, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon };
+            string[] strMnuText = { GetString(Resource.String.ThongKe), GetString(Resource.String.TimKiem), GetString(Resource.String.HangHoa), GetString(Resource.String.DangKy), GetString(Resource.String.Kho), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello), GetString(Resource.String.Hello) };
+            int[] strMnuUrl = { Resource.Drawable.ThongKe, Resource.Drawable.Search, Resource.Drawable.HangHoa, Resource.Drawable.DangKy, Resource.Drawable.Kho, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon, Resource.Drawable.Icon };
             if (objAdapterMenu != null)
             {
                 objAdapterMenu.actionMenuSelected -= FnMenuSelected;
@@ -105,11 +107,49 @@ namespace QLKHO.Android
             objAdapterMenu.actionMenuSelected += FnMenuSelected;
             menuListView.Adapter = objAdapterMenu;
         }
+
+        //Đổi text thanh tiêu đề và text trang chủ...(chuyển activity)
         void FnMenuSelected(string strMenuText)
         {
             txtActionBarText.Text = strMenuText;
             txtPageName.Text = strMenuText;
             //selected action goes here
+
+            if (strMenuText.ToString().Equals("Thống Kê"))
+            {
+                StartActivity(typeof(ThongKe_Activity));
+            }
+            else
+            {
+                if (strMenuText.ToString().Equals("Tìm Kiếm"))
+                {
+                    StartActivity(typeof(TimKiem_Activity));
+                }
+                else
+                {
+                    if (strMenuText.ToString().Equals("Hàng Hóa"))
+                    {
+                        StartActivity(typeof(HangHoa_Activity));
+                    }
+                    else
+                    {
+                        if (strMenuText.ToString().Equals("Đăng Ký"))
+                        {
+                            StartActivity(typeof(DangKyActivity));
+                        }
+                        else
+                        {
+                            if (strMenuText.ToString().Equals("Kho"))
+                            {
+                                StartActivity(typeof(Kho_Activity));
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
         }
 
         void GestureLeft()
@@ -160,7 +200,7 @@ namespace QLKHO.Android
             }
         }
 
-        //bottom desription window sliding 
+        //bottom desription window sliding (cửa sổ mô tả dưới cùng trượt)
         void FnDescriptionWindowToggle()
         {
             if (txtDescription.IsShown)
@@ -186,7 +226,7 @@ namespace QLKHO.Android
             Activity _context;
             string[] _mnuText;
             int[] _mnuUrl;
-            //action event to pass selected menu item to main activity
+            //action event to pass selected menu item to main activity (sự kiện chọn menu để đến activity)
             internal event Action<string> actionMenuSelected;
             public MenuListAdapterClass(Activity context, string[] strMnu, int[] intImage)
             {
@@ -250,7 +290,6 @@ namespace QLKHO.Android
                     viewClicked();
                 };
             }
-
         }
 
 
