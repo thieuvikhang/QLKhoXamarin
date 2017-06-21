@@ -5,7 +5,7 @@ using Android.OS;
 namespace QLKHO.Android
 {
     [Activity(Label = "HangHoa", MainLauncher = true, Icon = "@drawable/icon")]
-    public class HangHoa : Activity
+    public class HangHoa_Activity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

@@ -5,6 +5,8 @@
     <string name="ThongKe">Thống Kê</string>
     <string name="TimKiem">Tìm Kiếm</string>
     <string name="HangHoa">Hàng Hóa</string>
+    <string name="DangKy">Đăng Ký</string>
+    <string name="Kho">Kho</string>
   <string-array name="list">
     <item>Bán hàng</item>
     <item>Quản lý kho</item>

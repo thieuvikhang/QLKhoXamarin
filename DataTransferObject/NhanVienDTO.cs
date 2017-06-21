@@ -25,4 +25,6 @@
         public int MaLoaiHang { get; set; }
         public int MaNSX { get; set; }
     }
+
+
 }

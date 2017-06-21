@@ -59,15 +59,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CTHHFragment .cs" />
+    <Compile Include="CT_Kho_Fragment.cs" />
     <Compile Include="DangKy_Activity.cs" />
     <Compile Include="DangNhap_Activity.cs" />
     <Compile Include="DSHangHoaFragment.cs" />
-    <Compile Include="HangHoa.cs" />
+    <Compile Include="DS_Kho_Fragment.cs" />
+    <Compile Include="GestureListener.cs" />
+    <Compile Include="HangHoa_Activity.cs" />
     <Compile Include="HHAdapter.cs" />
+    <Compile Include="Kho_Activity.cs" />
+    <Compile Include="Kho_Adapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Menu_Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThongKe_Activity.cs" />
+    <Compile Include="TimKiem_Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -92,6 +99,21 @@
     <AndroidResource Include="Resources\layout\DangKy.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\MenuCustomLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Kho.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Row_Kho.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DSKho.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CT_Kho.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -99,7 +121,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Icon.png" />
@@ -131,6 +155,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ThongKe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\DangKy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Kho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
