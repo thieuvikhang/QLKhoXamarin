@@ -16,14 +16,17 @@
     }
     public class HangHoaObject
     {
-        public int idHH { get; set; }
+        public int IdHH { get; set; }
         public int MaHangHoa { get; set; }
         public string TenHangHoa { get; set; }
+        public string HinhAnh { get; set; }
         public decimal? GiaNhap { get; set; }
         public int SoLuongTon { get; set; }
         public string MoTa { get; set; }
         public int MaLoaiHang { get; set; }
         public int MaNSX { get; set; }
+        public int TenNSX { get; set; }
+        public int TenLoaiHang { get; set; }
     }
     public class ChucVuObject
     {

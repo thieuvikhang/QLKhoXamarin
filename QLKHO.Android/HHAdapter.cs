@@ -3,15 +3,16 @@ using DataTransferObject;
 using Android.App;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V4.App;
+using Android.Content;
+using Square.Picasso;
 
 namespace QLKHO.Android
 {
     class HHAdapter : BaseAdapter
     {
-        private Activity activity;
+        private DSHangHoaFragment activity;
         private List<HangHoaObject> hh;
-        private DSHangHoaFragment dSHangHoaFragment;
-       
 
         public override int Count
         {
@@ -28,29 +29,33 @@ namespace QLKHO.Android
 
         public override long GetItemId(int position)
         {
-            return hh[position].idHH;
+            return hh[position].IdHH;
         }
-        public HHAdapter(Activity activity, List<HangHoaObject> hh)
+
+        public HHAdapter(DSHangHoaFragment activity, List<HangHoaObject> hh)
         {
             this.activity = activity;
             this.hh = hh;
         }
 
-
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            var view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.Row, parent, false);
+            var inflater = Application.Context.GetSystemService(Context.LayoutInflaterService) as LayoutInflater;
+            var view = inflater.Inflate(Resource.Layout.Row, parent, false);
 
-            var txtMa = view.FindViewById<TextView>(Resource.Id.MaHH);
+            var txtGiaNhap = view.FindViewById<TextView>(Resource.Id.GiaNhap);
             var txtTen = view.FindViewById<TextView>(Resource.Id.TenHH);
             var txtMoTa = view.FindViewById<TextView>(Resource.Id.MoTa);
             var icon = view.FindViewById<ImageView>(Resource.Id.icon);
+            string ct = hh[position].HinhAnh;
 
-            txtMa.Text = hh[position].MaHangHoa.ToString();
+            Picasso.With(Application.Context).Load(ct).Into(icon);
+            txtGiaNhap.Text = string.Format("{0:c0}", hh[position].GiaNhap);
             txtTen.Text = hh[position].TenHangHoa;
             txtMoTa.Text = hh[position].MoTa;
-            icon.SetBackgroundResource(Resource.Drawable.Icon);
             return view;
         }
+
+
     }
 }

@@ -129,7 +129,7 @@ namespace QLKHO.Android
                 {
                     if (strMenuText.ToString().Equals("Hàng Hóa"))
                     {
-                        StartActivity(typeof(HangHoa_Activity));
+                        StartActivity(typeof(HangHoaActivity));
                     }
                     else
                     {

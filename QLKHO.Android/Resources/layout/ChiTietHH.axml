@@ -1,61 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:id="@+id/details"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:paddingTop="4dip"
-    android:stretchColumns="1">
-  <TableRow>
-    <TextView android:text="Name:" />
-    <EditText android:id="@+id/name" />
-  </TableRow>
-
-  <TableRow>
-    <TextView android:text="Address:" />
-    <EditText android:id="@+id/addr" />
-  </TableRow>
-
-  <TableRow>
-
-    <TextView android:text="Type: " />
-    <RadioGroup android:id="@+id/types">
-      <RadioButton
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/take_out"
-          android:checked="true"
-          android:text="Take-out" />
-
-      <RadioButton
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/sit_down"
-          android:text="Sit-down" />
-
-      <RadioButton
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/delivery"
-          android:text="Delivery" />
-    </RadioGroup>
-  </TableRow>
-
-  <Button
-      android:id="@+id/save"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0">
+  <ScrollView
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Save" />
-  <Button
-      android:id="@+id/update"
-      android:onClick="onupdateClick"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Update" />
-  <Button
-      android:id="@+id/del"
-      android:onClick="ondelClick"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Delete" />
-</TableLayout>
+      android:layout_height="match_parent"
+      android:id="@+id/scrollView1">
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <TableLayout
+          android:id="@+id/details"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="4dip"
+          android:stretchColumns="1">
+        <TableRow>
+          <TextView
+              android:text="Mã hàng hóa:" />
+          <TextView
+              android:id="@+id/txtMaHH" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Tên hàng:" />
+          <TextView
+              android:id="@+id/txtTenHang" />
+        </TableRow>
+        <TableRow>
+          <ImageView
+              android:id="@+id/icon"
+              android:layout_height="wrap_content"
+              android:layout_width="0dip"
+              android:layout_marginRight="4dip"
+              android:layout_weight="0.2" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Giá nhập:" />
+          <TextView
+              android:id="@+id/txtGiaNhap" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Số lượng tồn:" />
+          <TextView
+              android:id="@+id/txtSoluong" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Mô tả:" />
+          <TextView
+              android:id="@+id/txtMoTa" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Loại hàng:" />
+          <TextView
+              android:id="@+id/txtTenLoai" />
+        </TableRow>
+        <TableRow>
+          <TextView
+              android:text="Tên nhà sản xuất: " />
+          <TextView
+              android:id="@+id/txtTenNSX" />
+        </TableRow>
+      </TableLayout>
+    </FrameLayout>
+  </ScrollView>
+</LinearLayout>

@@ -18,13 +18,14 @@ namespace DataAccess
             {
                 HangHoaObject hanghoa = new HangHoaObject()
                 {
-                    idHH = i,
-                    MaHangHoa =int.Parse(dt.Rows[i][0].ToString()),
+                    IdHH = i,
+                    MaHangHoa = int.Parse(dt.Rows[i][0].ToString()),
                     TenHangHoa = dt.Rows[i][1].ToString(),
-                    GiaNhap = decimal.Parse(dt.Rows[i][2].ToString()),
-                    SoLuongTon = int.Parse(dt.Rows[i][3].ToString()),
-                    MoTa = dt.Rows[i][4].ToString(),
-                    MaLoaiHang = int.Parse(dt.Rows[i][5].ToString()),
+                    HinhAnh = dt.Rows[i][2].ToString(),
+                    GiaNhap = decimal.Parse(dt.Rows[i][3].ToString()),
+                    SoLuongTon = int.Parse(dt.Rows[i][4].ToString()),
+                    MoTa = dt.Rows[i][5].ToString(),
+                    MaLoaiHang = int.Parse(dt.Rows[i][6].ToString()),
                     MaNSX = int.Parse(dt.Rows[i][6].ToString())
                 };
                 lstHH.Add(hanghoa);

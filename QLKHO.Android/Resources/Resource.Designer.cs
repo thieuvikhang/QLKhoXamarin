@@ -30,6 +30,1294 @@ namespace QLKHO.Android
 			global::Business.Resource.String.Hello = global::QLKHO.Android.Resource.String.Hello;
 			global::DataTransferObject.Resource.String.ApplicationName = global::QLKHO.Android.Resource.String.ApplicationName;
 			global::DataTransferObject.Resource.String.Hello = global::QLKHO.Android.Resource.String.Hello;
+			global::com.refractored.Resource.Animation.abc_fade_in = global::QLKHO.Android.Resource.Animation.abc_fade_in;
+			global::com.refractored.Resource.Animation.abc_fade_out = global::QLKHO.Android.Resource.Animation.abc_fade_out;
+			global::com.refractored.Resource.Animation.abc_grow_fade_in_from_bottom = global::QLKHO.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::com.refractored.Resource.Animation.abc_popup_enter = global::QLKHO.Android.Resource.Animation.abc_popup_enter;
+			global::com.refractored.Resource.Animation.abc_popup_exit = global::QLKHO.Android.Resource.Animation.abc_popup_exit;
+			global::com.refractored.Resource.Animation.abc_shrink_fade_out_from_bottom = global::QLKHO.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::QLKHO.Android.Resource.Animation.abc_slide_in_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_top = global::QLKHO.Android.Resource.Animation.abc_slide_in_top;
+			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::QLKHO.Android.Resource.Animation.abc_slide_out_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_out_top = global::QLKHO.Android.Resource.Animation.abc_slide_out_top;
+			global::com.refractored.Resource.Attribute.actionBarDivider = global::QLKHO.Android.Resource.Attribute.actionBarDivider;
+			global::com.refractored.Resource.Attribute.actionBarItemBackground = global::QLKHO.Android.Resource.Attribute.actionBarItemBackground;
+			global::com.refractored.Resource.Attribute.actionBarPopupTheme = global::QLKHO.Android.Resource.Attribute.actionBarPopupTheme;
+			global::com.refractored.Resource.Attribute.actionBarSize = global::QLKHO.Android.Resource.Attribute.actionBarSize;
+			global::com.refractored.Resource.Attribute.actionBarSplitStyle = global::QLKHO.Android.Resource.Attribute.actionBarSplitStyle;
+			global::com.refractored.Resource.Attribute.actionBarStyle = global::QLKHO.Android.Resource.Attribute.actionBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabBarStyle = global::QLKHO.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabStyle = global::QLKHO.Android.Resource.Attribute.actionBarTabStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabTextStyle = global::QLKHO.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::com.refractored.Resource.Attribute.actionBarTheme = global::QLKHO.Android.Resource.Attribute.actionBarTheme;
+			global::com.refractored.Resource.Attribute.actionBarWidgetTheme = global::QLKHO.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::com.refractored.Resource.Attribute.actionButtonStyle = global::QLKHO.Android.Resource.Attribute.actionButtonStyle;
+			global::com.refractored.Resource.Attribute.actionDropDownStyle = global::QLKHO.Android.Resource.Attribute.actionDropDownStyle;
+			global::com.refractored.Resource.Attribute.actionLayout = global::QLKHO.Android.Resource.Attribute.actionLayout;
+			global::com.refractored.Resource.Attribute.actionMenuTextAppearance = global::QLKHO.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::com.refractored.Resource.Attribute.actionMenuTextColor = global::QLKHO.Android.Resource.Attribute.actionMenuTextColor;
+			global::com.refractored.Resource.Attribute.actionModeBackground = global::QLKHO.Android.Resource.Attribute.actionModeBackground;
+			global::com.refractored.Resource.Attribute.actionModeCloseButtonStyle = global::QLKHO.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Attribute.actionModeCloseDrawable = global::QLKHO.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCopyDrawable = global::QLKHO.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCutDrawable = global::QLKHO.Android.Resource.Attribute.actionModeCutDrawable;
+			global::com.refractored.Resource.Attribute.actionModeFindDrawable = global::QLKHO.Android.Resource.Attribute.actionModeFindDrawable;
+			global::com.refractored.Resource.Attribute.actionModePasteDrawable = global::QLKHO.Android.Resource.Attribute.actionModePasteDrawable;
+			global::com.refractored.Resource.Attribute.actionModePopupWindowStyle = global::QLKHO.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::com.refractored.Resource.Attribute.actionModeSelectAllDrawable = global::QLKHO.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Attribute.actionModeShareDrawable = global::QLKHO.Android.Resource.Attribute.actionModeShareDrawable;
+			global::com.refractored.Resource.Attribute.actionModeSplitBackground = global::QLKHO.Android.Resource.Attribute.actionModeSplitBackground;
+			global::com.refractored.Resource.Attribute.actionModeStyle = global::QLKHO.Android.Resource.Attribute.actionModeStyle;
+			global::com.refractored.Resource.Attribute.actionModeWebSearchDrawable = global::QLKHO.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Attribute.actionOverflowButtonStyle = global::QLKHO.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::com.refractored.Resource.Attribute.actionOverflowMenuStyle = global::QLKHO.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::com.refractored.Resource.Attribute.actionProviderClass = global::QLKHO.Android.Resource.Attribute.actionProviderClass;
+			global::com.refractored.Resource.Attribute.actionViewClass = global::QLKHO.Android.Resource.Attribute.actionViewClass;
+			global::com.refractored.Resource.Attribute.activityChooserViewStyle = global::QLKHO.Android.Resource.Attribute.activityChooserViewStyle;
+			global::com.refractored.Resource.Attribute.alertDialogButtonGroupStyle = global::QLKHO.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Attribute.alertDialogCenterButtons = global::QLKHO.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::com.refractored.Resource.Attribute.alertDialogStyle = global::QLKHO.Android.Resource.Attribute.alertDialogStyle;
+			global::com.refractored.Resource.Attribute.alertDialogTheme = global::QLKHO.Android.Resource.Attribute.alertDialogTheme;
+			global::com.refractored.Resource.Attribute.allowStacking = global::QLKHO.Android.Resource.Attribute.allowStacking;
+			global::com.refractored.Resource.Attribute.arrowHeadLength = global::QLKHO.Android.Resource.Attribute.arrowHeadLength;
+			global::com.refractored.Resource.Attribute.arrowShaftLength = global::QLKHO.Android.Resource.Attribute.arrowShaftLength;
+			global::com.refractored.Resource.Attribute.autoCompleteTextViewStyle = global::QLKHO.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Attribute.background = global::QLKHO.Android.Resource.Attribute.background;
+			global::com.refractored.Resource.Attribute.backgroundSplit = global::QLKHO.Android.Resource.Attribute.backgroundSplit;
+			global::com.refractored.Resource.Attribute.backgroundStacked = global::QLKHO.Android.Resource.Attribute.backgroundStacked;
+			global::com.refractored.Resource.Attribute.backgroundTint = global::QLKHO.Android.Resource.Attribute.backgroundTint;
+			global::com.refractored.Resource.Attribute.backgroundTintMode = global::QLKHO.Android.Resource.Attribute.backgroundTintMode;
+			global::com.refractored.Resource.Attribute.barLength = global::QLKHO.Android.Resource.Attribute.barLength;
+			global::com.refractored.Resource.Attribute.borderlessButtonStyle = global::QLKHO.Android.Resource.Attribute.borderlessButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarButtonStyle = global::QLKHO.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNegativeButtonStyle = global::QLKHO.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarNeutralButtonStyle = global::QLKHO.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarPositiveButtonStyle = global::QLKHO.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarStyle = global::QLKHO.Android.Resource.Attribute.buttonBarStyle;
+			global::com.refractored.Resource.Attribute.buttonPanelSideLayout = global::QLKHO.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::com.refractored.Resource.Attribute.buttonStyle = global::QLKHO.Android.Resource.Attribute.buttonStyle;
+			global::com.refractored.Resource.Attribute.buttonStyleSmall = global::QLKHO.Android.Resource.Attribute.buttonStyleSmall;
+			global::com.refractored.Resource.Attribute.buttonTint = global::QLKHO.Android.Resource.Attribute.buttonTint;
+			global::com.refractored.Resource.Attribute.buttonTintMode = global::QLKHO.Android.Resource.Attribute.buttonTintMode;
+			global::com.refractored.Resource.Attribute.checkboxStyle = global::QLKHO.Android.Resource.Attribute.checkboxStyle;
+			global::com.refractored.Resource.Attribute.checkedTextViewStyle = global::QLKHO.Android.Resource.Attribute.checkedTextViewStyle;
+			global::com.refractored.Resource.Attribute.closeIcon = global::QLKHO.Android.Resource.Attribute.closeIcon;
+			global::com.refractored.Resource.Attribute.closeItemLayout = global::QLKHO.Android.Resource.Attribute.closeItemLayout;
+			global::com.refractored.Resource.Attribute.collapseContentDescription = global::QLKHO.Android.Resource.Attribute.collapseContentDescription;
+			global::com.refractored.Resource.Attribute.collapseIcon = global::QLKHO.Android.Resource.Attribute.collapseIcon;
+			global::com.refractored.Resource.Attribute.color = global::QLKHO.Android.Resource.Attribute.color;
+			global::com.refractored.Resource.Attribute.colorAccent = global::QLKHO.Android.Resource.Attribute.colorAccent;
+			global::com.refractored.Resource.Attribute.colorButtonNormal = global::QLKHO.Android.Resource.Attribute.colorButtonNormal;
+			global::com.refractored.Resource.Attribute.colorControlActivated = global::QLKHO.Android.Resource.Attribute.colorControlActivated;
+			global::com.refractored.Resource.Attribute.colorControlHighlight = global::QLKHO.Android.Resource.Attribute.colorControlHighlight;
+			global::com.refractored.Resource.Attribute.colorControlNormal = global::QLKHO.Android.Resource.Attribute.colorControlNormal;
+			global::com.refractored.Resource.Attribute.colorPrimary = global::QLKHO.Android.Resource.Attribute.colorPrimary;
+			global::com.refractored.Resource.Attribute.colorPrimaryDark = global::QLKHO.Android.Resource.Attribute.colorPrimaryDark;
+			global::com.refractored.Resource.Attribute.colorSwitchThumbNormal = global::QLKHO.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::com.refractored.Resource.Attribute.commitIcon = global::QLKHO.Android.Resource.Attribute.commitIcon;
+			global::com.refractored.Resource.Attribute.contentInsetEnd = global::QLKHO.Android.Resource.Attribute.contentInsetEnd;
+			global::com.refractored.Resource.Attribute.contentInsetLeft = global::QLKHO.Android.Resource.Attribute.contentInsetLeft;
+			global::com.refractored.Resource.Attribute.contentInsetRight = global::QLKHO.Android.Resource.Attribute.contentInsetRight;
+			global::com.refractored.Resource.Attribute.contentInsetStart = global::QLKHO.Android.Resource.Attribute.contentInsetStart;
+			global::com.refractored.Resource.Attribute.controlBackground = global::QLKHO.Android.Resource.Attribute.controlBackground;
+			global::com.refractored.Resource.Attribute.customNavigationLayout = global::QLKHO.Android.Resource.Attribute.customNavigationLayout;
+			global::com.refractored.Resource.Attribute.defaultQueryHint = global::QLKHO.Android.Resource.Attribute.defaultQueryHint;
+			global::com.refractored.Resource.Attribute.dialogPreferredPadding = global::QLKHO.Android.Resource.Attribute.dialogPreferredPadding;
+			global::com.refractored.Resource.Attribute.dialogTheme = global::QLKHO.Android.Resource.Attribute.dialogTheme;
+			global::com.refractored.Resource.Attribute.displayOptions = global::QLKHO.Android.Resource.Attribute.displayOptions;
+			global::com.refractored.Resource.Attribute.divider = global::QLKHO.Android.Resource.Attribute.divider;
+			global::com.refractored.Resource.Attribute.dividerHorizontal = global::QLKHO.Android.Resource.Attribute.dividerHorizontal;
+			global::com.refractored.Resource.Attribute.dividerPadding = global::QLKHO.Android.Resource.Attribute.dividerPadding;
+			global::com.refractored.Resource.Attribute.dividerVertical = global::QLKHO.Android.Resource.Attribute.dividerVertical;
+			global::com.refractored.Resource.Attribute.drawableSize = global::QLKHO.Android.Resource.Attribute.drawableSize;
+			global::com.refractored.Resource.Attribute.drawerArrowStyle = global::QLKHO.Android.Resource.Attribute.drawerArrowStyle;
+			global::com.refractored.Resource.Attribute.dropDownListViewStyle = global::QLKHO.Android.Resource.Attribute.dropDownListViewStyle;
+			global::com.refractored.Resource.Attribute.dropdownListPreferredItemHeight = global::QLKHO.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.editTextBackground = global::QLKHO.Android.Resource.Attribute.editTextBackground;
+			global::com.refractored.Resource.Attribute.editTextColor = global::QLKHO.Android.Resource.Attribute.editTextColor;
+			global::com.refractored.Resource.Attribute.editTextStyle = global::QLKHO.Android.Resource.Attribute.editTextStyle;
+			global::com.refractored.Resource.Attribute.elevation = global::QLKHO.Android.Resource.Attribute.elevation;
+			global::com.refractored.Resource.Attribute.expandActivityOverflowButtonDrawable = global::QLKHO.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Attribute.gapBetweenBars = global::QLKHO.Android.Resource.Attribute.gapBetweenBars;
+			global::com.refractored.Resource.Attribute.goIcon = global::QLKHO.Android.Resource.Attribute.goIcon;
+			global::com.refractored.Resource.Attribute.height = global::QLKHO.Android.Resource.Attribute.height;
+			global::com.refractored.Resource.Attribute.hideOnContentScroll = global::QLKHO.Android.Resource.Attribute.hideOnContentScroll;
+			global::com.refractored.Resource.Attribute.homeAsUpIndicator = global::QLKHO.Android.Resource.Attribute.homeAsUpIndicator;
+			global::com.refractored.Resource.Attribute.homeLayout = global::QLKHO.Android.Resource.Attribute.homeLayout;
+			global::com.refractored.Resource.Attribute.icon = global::QLKHO.Android.Resource.Attribute.icon;
+			global::com.refractored.Resource.Attribute.iconifiedByDefault = global::QLKHO.Android.Resource.Attribute.iconifiedByDefault;
+			global::com.refractored.Resource.Attribute.imageButtonStyle = global::QLKHO.Android.Resource.Attribute.imageButtonStyle;
+			global::com.refractored.Resource.Attribute.indeterminateProgressStyle = global::QLKHO.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::com.refractored.Resource.Attribute.initialActivityCount = global::QLKHO.Android.Resource.Attribute.initialActivityCount;
+			global::com.refractored.Resource.Attribute.isLightTheme = global::QLKHO.Android.Resource.Attribute.isLightTheme;
+			global::com.refractored.Resource.Attribute.itemPadding = global::QLKHO.Android.Resource.Attribute.itemPadding;
+			global::com.refractored.Resource.Attribute.layout = global::QLKHO.Android.Resource.Attribute.layout;
+			global::com.refractored.Resource.Attribute.listChoiceBackgroundIndicator = global::QLKHO.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Attribute.listDividerAlertDialog = global::QLKHO.Android.Resource.Attribute.listDividerAlertDialog;
+			global::com.refractored.Resource.Attribute.listItemLayout = global::QLKHO.Android.Resource.Attribute.listItemLayout;
+			global::com.refractored.Resource.Attribute.listLayout = global::QLKHO.Android.Resource.Attribute.listLayout;
+			global::com.refractored.Resource.Attribute.listPopupWindowStyle = global::QLKHO.Android.Resource.Attribute.listPopupWindowStyle;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeight = global::QLKHO.Android.Resource.Attribute.listPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightLarge = global::QLKHO.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightSmall = global::QLKHO.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingLeft = global::QLKHO.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingRight = global::QLKHO.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Attribute.logo = global::QLKHO.Android.Resource.Attribute.logo;
+			global::com.refractored.Resource.Attribute.logoDescription = global::QLKHO.Android.Resource.Attribute.logoDescription;
+			global::com.refractored.Resource.Attribute.maxButtonHeight = global::QLKHO.Android.Resource.Attribute.maxButtonHeight;
+			global::com.refractored.Resource.Attribute.measureWithLargestChild = global::QLKHO.Android.Resource.Attribute.measureWithLargestChild;
+			global::com.refractored.Resource.Attribute.multiChoiceItemLayout = global::QLKHO.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.navigationContentDescription = global::QLKHO.Android.Resource.Attribute.navigationContentDescription;
+			global::com.refractored.Resource.Attribute.navigationIcon = global::QLKHO.Android.Resource.Attribute.navigationIcon;
+			global::com.refractored.Resource.Attribute.navigationMode = global::QLKHO.Android.Resource.Attribute.navigationMode;
+			global::com.refractored.Resource.Attribute.overlapAnchor = global::QLKHO.Android.Resource.Attribute.overlapAnchor;
+			global::com.refractored.Resource.Attribute.paddingEnd = global::QLKHO.Android.Resource.Attribute.paddingEnd;
+			global::com.refractored.Resource.Attribute.paddingStart = global::QLKHO.Android.Resource.Attribute.paddingStart;
+			global::com.refractored.Resource.Attribute.panelBackground = global::QLKHO.Android.Resource.Attribute.panelBackground;
+			global::com.refractored.Resource.Attribute.panelMenuListTheme = global::QLKHO.Android.Resource.Attribute.panelMenuListTheme;
+			global::com.refractored.Resource.Attribute.panelMenuListWidth = global::QLKHO.Android.Resource.Attribute.panelMenuListWidth;
+			global::com.refractored.Resource.Attribute.popupMenuStyle = global::QLKHO.Android.Resource.Attribute.popupMenuStyle;
+			global::com.refractored.Resource.Attribute.popupTheme = global::QLKHO.Android.Resource.Attribute.popupTheme;
+			global::com.refractored.Resource.Attribute.popupWindowStyle = global::QLKHO.Android.Resource.Attribute.popupWindowStyle;
+			global::com.refractored.Resource.Attribute.preserveIconSpacing = global::QLKHO.Android.Resource.Attribute.preserveIconSpacing;
+			global::com.refractored.Resource.Attribute.progressBarPadding = global::QLKHO.Android.Resource.Attribute.progressBarPadding;
+			global::com.refractored.Resource.Attribute.progressBarStyle = global::QLKHO.Android.Resource.Attribute.progressBarStyle;
+			global::com.refractored.Resource.Attribute.pstsDividerColor = global::QLKHO.Android.Resource.Attribute.pstsDividerColor;
+			global::com.refractored.Resource.Attribute.pstsDividerPadding = global::QLKHO.Android.Resource.Attribute.pstsDividerPadding;
+			global::com.refractored.Resource.Attribute.pstsDividerWidth = global::QLKHO.Android.Resource.Attribute.pstsDividerWidth;
+			global::com.refractored.Resource.Attribute.pstsIndicatorColor = global::QLKHO.Android.Resource.Attribute.pstsIndicatorColor;
+			global::com.refractored.Resource.Attribute.pstsIndicatorHeight = global::QLKHO.Android.Resource.Attribute.pstsIndicatorHeight;
+			global::com.refractored.Resource.Attribute.pstsPaddingMiddle = global::QLKHO.Android.Resource.Attribute.pstsPaddingMiddle;
+			global::com.refractored.Resource.Attribute.pstsScrollOffset = global::QLKHO.Android.Resource.Attribute.pstsScrollOffset;
+			global::com.refractored.Resource.Attribute.pstsShouldExpand = global::QLKHO.Android.Resource.Attribute.pstsShouldExpand;
+			global::com.refractored.Resource.Attribute.pstsTabBackground = global::QLKHO.Android.Resource.Attribute.pstsTabBackground;
+			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::QLKHO.Android.Resource.Attribute.pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::QLKHO.Android.Resource.Attribute.pstsTextAllCaps;
+			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::QLKHO.Android.Resource.Attribute.pstsTextAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::QLKHO.Android.Resource.Attribute.pstsTextColorSelected;
+			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::QLKHO.Android.Resource.Attribute.pstsTextSelectedStyle;
+			global::com.refractored.Resource.Attribute.pstsTextStyle = global::QLKHO.Android.Resource.Attribute.pstsTextStyle;
+			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::QLKHO.Android.Resource.Attribute.pstsUnderlineColor;
+			global::com.refractored.Resource.Attribute.pstsUnderlineHeight = global::QLKHO.Android.Resource.Attribute.pstsUnderlineHeight;
+			global::com.refractored.Resource.Attribute.queryBackground = global::QLKHO.Android.Resource.Attribute.queryBackground;
+			global::com.refractored.Resource.Attribute.queryHint = global::QLKHO.Android.Resource.Attribute.queryHint;
+			global::com.refractored.Resource.Attribute.radioButtonStyle = global::QLKHO.Android.Resource.Attribute.radioButtonStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyle = global::QLKHO.Android.Resource.Attribute.ratingBarStyle;
+			global::com.refractored.Resource.Attribute.ratingBarStyleIndicator = global::QLKHO.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::com.refractored.Resource.Attribute.ratingBarStyleSmall = global::QLKHO.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::com.refractored.Resource.Attribute.searchHintIcon = global::QLKHO.Android.Resource.Attribute.searchHintIcon;
+			global::com.refractored.Resource.Attribute.searchIcon = global::QLKHO.Android.Resource.Attribute.searchIcon;
+			global::com.refractored.Resource.Attribute.searchViewStyle = global::QLKHO.Android.Resource.Attribute.searchViewStyle;
+			global::com.refractored.Resource.Attribute.seekBarStyle = global::QLKHO.Android.Resource.Attribute.seekBarStyle;
+			global::com.refractored.Resource.Attribute.selectableItemBackground = global::QLKHO.Android.Resource.Attribute.selectableItemBackground;
+			global::com.refractored.Resource.Attribute.selectableItemBackgroundBorderless = global::QLKHO.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Attribute.showAsAction = global::QLKHO.Android.Resource.Attribute.showAsAction;
+			global::com.refractored.Resource.Attribute.showDividers = global::QLKHO.Android.Resource.Attribute.showDividers;
+			global::com.refractored.Resource.Attribute.showText = global::QLKHO.Android.Resource.Attribute.showText;
+			global::com.refractored.Resource.Attribute.singleChoiceItemLayout = global::QLKHO.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::com.refractored.Resource.Attribute.spinBars = global::QLKHO.Android.Resource.Attribute.spinBars;
+			global::com.refractored.Resource.Attribute.spinnerDropDownItemStyle = global::QLKHO.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Attribute.spinnerStyle = global::QLKHO.Android.Resource.Attribute.spinnerStyle;
+			global::com.refractored.Resource.Attribute.splitTrack = global::QLKHO.Android.Resource.Attribute.splitTrack;
+			global::com.refractored.Resource.Attribute.srcCompat = global::QLKHO.Android.Resource.Attribute.srcCompat;
+			global::com.refractored.Resource.Attribute.state_above_anchor = global::QLKHO.Android.Resource.Attribute.state_above_anchor;
+			global::com.refractored.Resource.Attribute.submitBackground = global::QLKHO.Android.Resource.Attribute.submitBackground;
+			global::com.refractored.Resource.Attribute.subtitle = global::QLKHO.Android.Resource.Attribute.subtitle;
+			global::com.refractored.Resource.Attribute.subtitleTextAppearance = global::QLKHO.Android.Resource.Attribute.subtitleTextAppearance;
+			global::com.refractored.Resource.Attribute.subtitleTextColor = global::QLKHO.Android.Resource.Attribute.subtitleTextColor;
+			global::com.refractored.Resource.Attribute.subtitleTextStyle = global::QLKHO.Android.Resource.Attribute.subtitleTextStyle;
+			global::com.refractored.Resource.Attribute.suggestionRowLayout = global::QLKHO.Android.Resource.Attribute.suggestionRowLayout;
+			global::com.refractored.Resource.Attribute.switchMinWidth = global::QLKHO.Android.Resource.Attribute.switchMinWidth;
+			global::com.refractored.Resource.Attribute.switchPadding = global::QLKHO.Android.Resource.Attribute.switchPadding;
+			global::com.refractored.Resource.Attribute.switchStyle = global::QLKHO.Android.Resource.Attribute.switchStyle;
+			global::com.refractored.Resource.Attribute.switchTextAppearance = global::QLKHO.Android.Resource.Attribute.switchTextAppearance;
+			global::com.refractored.Resource.Attribute.textAllCaps = global::QLKHO.Android.Resource.Attribute.textAllCaps;
+			global::com.refractored.Resource.Attribute.textAppearanceLargePopupMenu = global::QLKHO.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Attribute.textAppearanceListItem = global::QLKHO.Android.Resource.Attribute.textAppearanceListItem;
+			global::com.refractored.Resource.Attribute.textAppearanceListItemSmall = global::QLKHO.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultSubtitle = global::QLKHO.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultTitle = global::QLKHO.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSmallPopupMenu = global::QLKHO.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Attribute.textColorAlertDialogListItem = global::QLKHO.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::com.refractored.Resource.Attribute.textColorSearchUrl = global::QLKHO.Android.Resource.Attribute.textColorSearchUrl;
+			global::com.refractored.Resource.Attribute.theme = global::QLKHO.Android.Resource.Attribute.theme;
+			global::com.refractored.Resource.Attribute.thickness = global::QLKHO.Android.Resource.Attribute.thickness;
+			global::com.refractored.Resource.Attribute.thumbTextPadding = global::QLKHO.Android.Resource.Attribute.thumbTextPadding;
+			global::com.refractored.Resource.Attribute.title = global::QLKHO.Android.Resource.Attribute.title;
+			global::com.refractored.Resource.Attribute.titleMarginBottom = global::QLKHO.Android.Resource.Attribute.titleMarginBottom;
+			global::com.refractored.Resource.Attribute.titleMarginEnd = global::QLKHO.Android.Resource.Attribute.titleMarginEnd;
+			global::com.refractored.Resource.Attribute.titleMarginStart = global::QLKHO.Android.Resource.Attribute.titleMarginStart;
+			global::com.refractored.Resource.Attribute.titleMarginTop = global::QLKHO.Android.Resource.Attribute.titleMarginTop;
+			global::com.refractored.Resource.Attribute.titleMargins = global::QLKHO.Android.Resource.Attribute.titleMargins;
+			global::com.refractored.Resource.Attribute.titleTextAppearance = global::QLKHO.Android.Resource.Attribute.titleTextAppearance;
+			global::com.refractored.Resource.Attribute.titleTextColor = global::QLKHO.Android.Resource.Attribute.titleTextColor;
+			global::com.refractored.Resource.Attribute.titleTextStyle = global::QLKHO.Android.Resource.Attribute.titleTextStyle;
+			global::com.refractored.Resource.Attribute.toolbarNavigationButtonStyle = global::QLKHO.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Attribute.toolbarStyle = global::QLKHO.Android.Resource.Attribute.toolbarStyle;
+			global::com.refractored.Resource.Attribute.track = global::QLKHO.Android.Resource.Attribute.track;
+			global::com.refractored.Resource.Attribute.voiceIcon = global::QLKHO.Android.Resource.Attribute.voiceIcon;
+			global::com.refractored.Resource.Attribute.windowActionBar = global::QLKHO.Android.Resource.Attribute.windowActionBar;
+			global::com.refractored.Resource.Attribute.windowActionBarOverlay = global::QLKHO.Android.Resource.Attribute.windowActionBarOverlay;
+			global::com.refractored.Resource.Attribute.windowActionModeOverlay = global::QLKHO.Android.Resource.Attribute.windowActionModeOverlay;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMajor = global::QLKHO.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMinor = global::QLKHO.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMajor = global::QLKHO.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMinor = global::QLKHO.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMajor = global::QLKHO.Android.Resource.Attribute.windowMinWidthMajor;
+			global::com.refractored.Resource.Attribute.windowMinWidthMinor = global::QLKHO.Android.Resource.Attribute.windowMinWidthMinor;
+			global::com.refractored.Resource.Attribute.windowNoTitle = global::QLKHO.Android.Resource.Attribute.windowNoTitle;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs = global::QLKHO.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::QLKHO.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::com.refractored.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::QLKHO.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::com.refractored.Resource.Boolean.abc_allow_stacked_button_bar = global::QLKHO.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::com.refractored.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::QLKHO.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::com.refractored.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::QLKHO.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::com.refractored.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::QLKHO.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::com.refractored.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::QLKHO.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_dark = global::QLKHO.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_light = global::QLKHO.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::com.refractored.Resource.Color.abc_color_highlight_material = global::QLKHO.Android.Resource.Color.abc_color_highlight_material;
+			global::com.refractored.Resource.Color.abc_input_method_navigation_guard = global::QLKHO.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_dark = global::QLKHO.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_light = global::QLKHO.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::com.refractored.Resource.Color.abc_primary_text_material_dark = global::QLKHO.Android.Resource.Color.abc_primary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_material_light = global::QLKHO.Android.Resource.Color.abc_primary_text_material_light;
+			global::com.refractored.Resource.Color.abc_search_url_text = global::QLKHO.Android.Resource.Color.abc_search_url_text;
+			global::com.refractored.Resource.Color.abc_search_url_text_normal = global::QLKHO.Android.Resource.Color.abc_search_url_text_normal;
+			global::com.refractored.Resource.Color.abc_search_url_text_pressed = global::QLKHO.Android.Resource.Color.abc_search_url_text_pressed;
+			global::com.refractored.Resource.Color.abc_search_url_text_selected = global::QLKHO.Android.Resource.Color.abc_search_url_text_selected;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_dark = global::QLKHO.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_light = global::QLKHO.Android.Resource.Color.abc_secondary_text_material_light;
+			global::com.refractored.Resource.Color.accent_material_dark = global::QLKHO.Android.Resource.Color.accent_material_dark;
+			global::com.refractored.Resource.Color.accent_material_light = global::QLKHO.Android.Resource.Color.accent_material_light;
+			global::com.refractored.Resource.Color.background_floating_material_dark = global::QLKHO.Android.Resource.Color.background_floating_material_dark;
+			global::com.refractored.Resource.Color.background_floating_material_light = global::QLKHO.Android.Resource.Color.background_floating_material_light;
+			global::com.refractored.Resource.Color.background_material_dark = global::QLKHO.Android.Resource.Color.background_material_dark;
+			global::com.refractored.Resource.Color.background_material_light = global::QLKHO.Android.Resource.Color.background_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::QLKHO.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::QLKHO.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::QLKHO.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_light = global::QLKHO.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_material_dark = global::QLKHO.Android.Resource.Color.bright_foreground_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_material_light = global::QLKHO.Android.Resource.Color.bright_foreground_material_light;
+			global::com.refractored.Resource.Color.button_material_dark = global::QLKHO.Android.Resource.Color.button_material_dark;
+			global::com.refractored.Resource.Color.button_material_light = global::QLKHO.Android.Resource.Color.button_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_dark = global::QLKHO.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_light = global::QLKHO.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_material_dark = global::QLKHO.Android.Resource.Color.dim_foreground_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_material_light = global::QLKHO.Android.Resource.Color.dim_foreground_material_light;
+			global::com.refractored.Resource.Color.foreground_material_dark = global::QLKHO.Android.Resource.Color.foreground_material_dark;
+			global::com.refractored.Resource.Color.foreground_material_light = global::QLKHO.Android.Resource.Color.foreground_material_light;
+			global::com.refractored.Resource.Color.highlighted_text_material_dark = global::QLKHO.Android.Resource.Color.highlighted_text_material_dark;
+			global::com.refractored.Resource.Color.highlighted_text_material_light = global::QLKHO.Android.Resource.Color.highlighted_text_material_light;
+			global::com.refractored.Resource.Color.hint_foreground_material_dark = global::QLKHO.Android.Resource.Color.hint_foreground_material_dark;
+			global::com.refractored.Resource.Color.hint_foreground_material_light = global::QLKHO.Android.Resource.Color.hint_foreground_material_light;
+			global::com.refractored.Resource.Color.material_blue_grey_800 = global::QLKHO.Android.Resource.Color.material_blue_grey_800;
+			global::com.refractored.Resource.Color.material_blue_grey_900 = global::QLKHO.Android.Resource.Color.material_blue_grey_900;
+			global::com.refractored.Resource.Color.material_blue_grey_950 = global::QLKHO.Android.Resource.Color.material_blue_grey_950;
+			global::com.refractored.Resource.Color.material_deep_teal_200 = global::QLKHO.Android.Resource.Color.material_deep_teal_200;
+			global::com.refractored.Resource.Color.material_deep_teal_500 = global::QLKHO.Android.Resource.Color.material_deep_teal_500;
+			global::com.refractored.Resource.Color.material_grey_100 = global::QLKHO.Android.Resource.Color.material_grey_100;
+			global::com.refractored.Resource.Color.material_grey_300 = global::QLKHO.Android.Resource.Color.material_grey_300;
+			global::com.refractored.Resource.Color.material_grey_50 = global::QLKHO.Android.Resource.Color.material_grey_50;
+			global::com.refractored.Resource.Color.material_grey_600 = global::QLKHO.Android.Resource.Color.material_grey_600;
+			global::com.refractored.Resource.Color.material_grey_800 = global::QLKHO.Android.Resource.Color.material_grey_800;
+			global::com.refractored.Resource.Color.material_grey_850 = global::QLKHO.Android.Resource.Color.material_grey_850;
+			global::com.refractored.Resource.Color.material_grey_900 = global::QLKHO.Android.Resource.Color.material_grey_900;
+			global::com.refractored.Resource.Color.primary_dark_material_dark = global::QLKHO.Android.Resource.Color.primary_dark_material_dark;
+			global::com.refractored.Resource.Color.primary_dark_material_light = global::QLKHO.Android.Resource.Color.primary_dark_material_light;
+			global::com.refractored.Resource.Color.primary_material_dark = global::QLKHO.Android.Resource.Color.primary_material_dark;
+			global::com.refractored.Resource.Color.primary_material_light = global::QLKHO.Android.Resource.Color.primary_material_light;
+			global::com.refractored.Resource.Color.primary_text_default_material_dark = global::QLKHO.Android.Resource.Color.primary_text_default_material_dark;
+			global::com.refractored.Resource.Color.primary_text_default_material_light = global::QLKHO.Android.Resource.Color.primary_text_default_material_light;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::QLKHO.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::QLKHO.Android.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::QLKHO.Android.Resource.Color.psts_background_tab_pressed;
+			global::com.refractored.Resource.Color.ripple_material_dark = global::QLKHO.Android.Resource.Color.ripple_material_dark;
+			global::com.refractored.Resource.Color.ripple_material_light = global::QLKHO.Android.Resource.Color.ripple_material_light;
+			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::QLKHO.Android.Resource.Color.secondary_text_default_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_default_material_light = global::QLKHO.Android.Resource.Color.secondary_text_default_material_light;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_dark = global::QLKHO.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_light = global::QLKHO.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_dark = global::QLKHO.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_disabled_material_light = global::QLKHO.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_material_dark = global::QLKHO.Android.Resource.Color.switch_thumb_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_material_light = global::QLKHO.Android.Resource.Color.switch_thumb_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_dark = global::QLKHO.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_light = global::QLKHO.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::com.refractored.Resource.Dimension.abc_action_bar_content_inset_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_height_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_end_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_start_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_progress_bar_size = global::QLKHO.Android.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_max_height = global::QLKHO.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::QLKHO.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::QLKHO.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::QLKHO.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::QLKHO.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::QLKHO.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.refractored.Resource.Dimension.abc_alert_dialog_button_bar_height = global::QLKHO.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::com.refractored.Resource.Dimension.abc_button_inset_horizontal_material = global::QLKHO.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_inset_vertical_material = global::QLKHO.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_horizontal_material = global::QLKHO.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_vertical_material = global::QLKHO.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::QLKHO.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.refractored.Resource.Dimension.abc_control_corner_material = global::QLKHO.Android.Resource.Dimension.abc_control_corner_material;
+			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::QLKHO.Android.Resource.Dimension.abc_control_inset_material;
+			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::QLKHO.Android.Resource.Dimension.abc_control_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_major = global::QLKHO.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_height_minor = global::QLKHO.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_major = global::QLKHO.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_fixed_width_minor = global::QLKHO.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::QLKHO.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_major = global::QLKHO.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::com.refractored.Resource.Dimension.abc_dialog_min_width_minor = global::QLKHO.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_material = global::QLKHO.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dialog_padding_top_material = global::QLKHO.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_dark = global::QLKHO.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.abc_disabled_alpha_material_light = global::QLKHO.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::QLKHO.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_left = global::QLKHO.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_right = global::QLKHO.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_bottom_material = global::QLKHO.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::QLKHO.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_edit_text_inset_top_material = global::QLKHO.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::com.refractored.Resource.Dimension.abc_floating_window_z = global::QLKHO.Android.Resource.Dimension.abc_floating_window_z;
+			global::com.refractored.Resource.Dimension.abc_list_item_padding_horizontal_material = global::QLKHO.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_panel_menu_list_width = global::QLKHO.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_preferred_width = global::QLKHO.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_text_min_width = global::QLKHO.Android.Resource.Dimension.abc_search_view_text_min_width;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_background_height_material = global::QLKHO.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::com.refractored.Resource.Dimension.abc_seekbar_track_progress_height_material = global::QLKHO.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::com.refractored.Resource.Dimension.abc_select_dialog_padding_start_material = global::QLKHO.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::com.refractored.Resource.Dimension.abc_switch_padding = global::QLKHO.Android.Resource.Dimension.abc_switch_padding;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_1_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_2_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_button_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_button_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_caption_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_1_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_2_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_3_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_4_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_headline_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_large_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_large_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_medium_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_menu_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_small_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_small_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subhead_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::QLKHO.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material = global::QLKHO.Android.Resource.Dimension.abc_text_size_title_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material_toolbar = global::QLKHO.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::QLKHO.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::QLKHO.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_colored = global::QLKHO.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_dark = global::QLKHO.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.highlight_alpha_material_light = global::QLKHO.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::com.refractored.Resource.Dimension.notification_large_icon_height = global::QLKHO.Android.Resource.Dimension.notification_large_icon_height;
+			global::com.refractored.Resource.Dimension.notification_large_icon_width = global::QLKHO.Android.Resource.Dimension.notification_large_icon_width;
+			global::com.refractored.Resource.Dimension.notification_subtext_size = global::QLKHO.Android.Resource.Dimension.notification_subtext_size;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_action_bar_item_background_material = global::QLKHO.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::com.refractored.Resource.Drawable.abc_btn_borderless_material = global::QLKHO.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::QLKHO.Android.Resource.Drawable.abc_btn_check_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::QLKHO.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::QLKHO.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_colored_material = global::QLKHO.Android.Resource.Drawable.abc_btn_colored_material;
+			global::com.refractored.Resource.Drawable.abc_btn_default_mtrl_shape = global::QLKHO.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::QLKHO.Android.Resource.Drawable.abc_btn_radio_material;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::QLKHO.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::QLKHO.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::QLKHO.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::QLKHO.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::QLKHO.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_material = global::QLKHO.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_control_background_material = global::QLKHO.Android.Resource.Drawable.abc_control_background_material;
+			global::com.refractored.Resource.Drawable.abc_dialog_material_background_dark = global::QLKHO.Android.Resource.Drawable.abc_dialog_material_background_dark;
+			global::com.refractored.Resource.Drawable.abc_dialog_material_background_light = global::QLKHO.Android.Resource.Drawable.abc_dialog_material_background_light;
+			global::com.refractored.Resource.Drawable.abc_edit_text_material = global::QLKHO.Android.Resource.Drawable.abc_edit_text_material;
+			global::com.refractored.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_16dp = global::QLKHO.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_black_36dp = global::QLKHO.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_16dp = global::QLKHO.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::com.refractored.Resource.Drawable.abc_ic_star_half_black_36dp = global::QLKHO.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::com.refractored.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_dark = global::QLKHO.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_light = global::QLKHO.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_divider_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_list_focused_holo = global::QLKHO.Android.Resource.Drawable.abc_list_focused_holo;
+			global::com.refractored.Resource.Drawable.abc_list_longpressed_holo = global::QLKHO.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_dark = global::QLKHO.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_light = global::QLKHO.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::QLKHO.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::QLKHO.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::QLKHO.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_light = global::QLKHO.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_dark = global::QLKHO.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::QLKHO.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::QLKHO.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::QLKHO.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_full_material = global::QLKHO.Android.Resource.Drawable.abc_ratingbar_full_material;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_indicator_material = global::QLKHO.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_small_material = global::QLKHO.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::QLKHO.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::QLKHO.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::com.refractored.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_seekbar_thumb_material = global::QLKHO.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_seekbar_track_material = global::QLKHO.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::QLKHO.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_spinner_textfield_background_material = global::QLKHO.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::QLKHO.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::QLKHO.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_text_cursor_material = global::QLKHO.Android.Resource.Drawable.abc_text_cursor_material;
+			global::com.refractored.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::QLKHO.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::QLKHO.Android.Resource.Drawable.abc_textfield_search_material;
+			global::com.refractored.Resource.Drawable.notification_template_icon_bg = global::QLKHO.Android.Resource.Drawable.notification_template_icon_bg;
+			global::com.refractored.Resource.Drawable.psts_background_tab = global::QLKHO.Android.Resource.Drawable.psts_background_tab;
+			global::com.refractored.Resource.Id.action0 = global::QLKHO.Android.Resource.Id.action0;
+			global::com.refractored.Resource.Id.action_bar = global::QLKHO.Android.Resource.Id.action_bar;
+			global::com.refractored.Resource.Id.action_bar_activity_content = global::QLKHO.Android.Resource.Id.action_bar_activity_content;
+			global::com.refractored.Resource.Id.action_bar_container = global::QLKHO.Android.Resource.Id.action_bar_container;
+			global::com.refractored.Resource.Id.action_bar_root = global::QLKHO.Android.Resource.Id.action_bar_root;
+			global::com.refractored.Resource.Id.action_bar_spinner = global::QLKHO.Android.Resource.Id.action_bar_spinner;
+			global::com.refractored.Resource.Id.action_bar_subtitle = global::QLKHO.Android.Resource.Id.action_bar_subtitle;
+			global::com.refractored.Resource.Id.action_bar_title = global::QLKHO.Android.Resource.Id.action_bar_title;
+			global::com.refractored.Resource.Id.action_context_bar = global::QLKHO.Android.Resource.Id.action_context_bar;
+			global::com.refractored.Resource.Id.action_divider = global::QLKHO.Android.Resource.Id.action_divider;
+			global::com.refractored.Resource.Id.action_menu_divider = global::QLKHO.Android.Resource.Id.action_menu_divider;
+			global::com.refractored.Resource.Id.action_menu_presenter = global::QLKHO.Android.Resource.Id.action_menu_presenter;
+			global::com.refractored.Resource.Id.action_mode_bar = global::QLKHO.Android.Resource.Id.action_mode_bar;
+			global::com.refractored.Resource.Id.action_mode_bar_stub = global::QLKHO.Android.Resource.Id.action_mode_bar_stub;
+			global::com.refractored.Resource.Id.action_mode_close_button = global::QLKHO.Android.Resource.Id.action_mode_close_button;
+			global::com.refractored.Resource.Id.activity_chooser_view_content = global::QLKHO.Android.Resource.Id.activity_chooser_view_content;
+			global::com.refractored.Resource.Id.alertTitle = global::QLKHO.Android.Resource.Id.alertTitle;
+			global::com.refractored.Resource.Id.always = global::QLKHO.Android.Resource.Id.always;
+			global::com.refractored.Resource.Id.beginning = global::QLKHO.Android.Resource.Id.beginning;
+			global::com.refractored.Resource.Id.bold = global::QLKHO.Android.Resource.Id.bold;
+			global::com.refractored.Resource.Id.buttonPanel = global::QLKHO.Android.Resource.Id.buttonPanel;
+			global::com.refractored.Resource.Id.cancel_action = global::QLKHO.Android.Resource.Id.cancel_action;
+			global::com.refractored.Resource.Id.checkbox = global::QLKHO.Android.Resource.Id.checkbox;
+			global::com.refractored.Resource.Id.chronometer = global::QLKHO.Android.Resource.Id.chronometer;
+			global::com.refractored.Resource.Id.collapseActionView = global::QLKHO.Android.Resource.Id.collapseActionView;
+			global::com.refractored.Resource.Id.contentPanel = global::QLKHO.Android.Resource.Id.contentPanel;
+			global::com.refractored.Resource.Id.custom = global::QLKHO.Android.Resource.Id.custom;
+			global::com.refractored.Resource.Id.customPanel = global::QLKHO.Android.Resource.Id.customPanel;
+			global::com.refractored.Resource.Id.decor_content_parent = global::QLKHO.Android.Resource.Id.decor_content_parent;
+			global::com.refractored.Resource.Id.default_activity_button = global::QLKHO.Android.Resource.Id.default_activity_button;
+			global::com.refractored.Resource.Id.disableHome = global::QLKHO.Android.Resource.Id.disableHome;
+			global::com.refractored.Resource.Id.edit_query = global::QLKHO.Android.Resource.Id.edit_query;
+			global::com.refractored.Resource.Id.end = global::QLKHO.Android.Resource.Id.end;
+			global::com.refractored.Resource.Id.end_padder = global::QLKHO.Android.Resource.Id.end_padder;
+			global::com.refractored.Resource.Id.expand_activities_button = global::QLKHO.Android.Resource.Id.expand_activities_button;
+			global::com.refractored.Resource.Id.expanded_menu = global::QLKHO.Android.Resource.Id.expanded_menu;
+			global::com.refractored.Resource.Id.home = global::QLKHO.Android.Resource.Id.home;
+			global::com.refractored.Resource.Id.homeAsUp = global::QLKHO.Android.Resource.Id.homeAsUp;
+			global::com.refractored.Resource.Id.icon = global::QLKHO.Android.Resource.Id.icon;
+			global::com.refractored.Resource.Id.ifRoom = global::QLKHO.Android.Resource.Id.ifRoom;
+			global::com.refractored.Resource.Id.image = global::QLKHO.Android.Resource.Id.image;
+			global::com.refractored.Resource.Id.info = global::QLKHO.Android.Resource.Id.info;
+			global::com.refractored.Resource.Id.italic = global::QLKHO.Android.Resource.Id.italic;
+			global::com.refractored.Resource.Id.line1 = global::QLKHO.Android.Resource.Id.line1;
+			global::com.refractored.Resource.Id.line3 = global::QLKHO.Android.Resource.Id.line3;
+			global::com.refractored.Resource.Id.listMode = global::QLKHO.Android.Resource.Id.listMode;
+			global::com.refractored.Resource.Id.list_item = global::QLKHO.Android.Resource.Id.list_item;
+			global::com.refractored.Resource.Id.media_actions = global::QLKHO.Android.Resource.Id.media_actions;
+			global::com.refractored.Resource.Id.middle = global::QLKHO.Android.Resource.Id.middle;
+			global::com.refractored.Resource.Id.multiply = global::QLKHO.Android.Resource.Id.multiply;
+			global::com.refractored.Resource.Id.never = global::QLKHO.Android.Resource.Id.never;
+			global::com.refractored.Resource.Id.none = global::QLKHO.Android.Resource.Id.none;
+			global::com.refractored.Resource.Id.normal = global::QLKHO.Android.Resource.Id.normal;
+			global::com.refractored.Resource.Id.parentPanel = global::QLKHO.Android.Resource.Id.parentPanel;
+			global::com.refractored.Resource.Id.progress_circular = global::QLKHO.Android.Resource.Id.progress_circular;
+			global::com.refractored.Resource.Id.progress_horizontal = global::QLKHO.Android.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.psts_tab_title = global::QLKHO.Android.Resource.Id.psts_tab_title;
+			global::com.refractored.Resource.Id.radio = global::QLKHO.Android.Resource.Id.radio;
+			global::com.refractored.Resource.Id.screen = global::QLKHO.Android.Resource.Id.screen;
+			global::com.refractored.Resource.Id.scrollIndicatorDown = global::QLKHO.Android.Resource.Id.scrollIndicatorDown;
+			global::com.refractored.Resource.Id.scrollIndicatorUp = global::QLKHO.Android.Resource.Id.scrollIndicatorUp;
+			global::com.refractored.Resource.Id.scrollView = global::QLKHO.Android.Resource.Id.scrollView;
+			global::com.refractored.Resource.Id.search_badge = global::QLKHO.Android.Resource.Id.search_badge;
+			global::com.refractored.Resource.Id.search_bar = global::QLKHO.Android.Resource.Id.search_bar;
+			global::com.refractored.Resource.Id.search_button = global::QLKHO.Android.Resource.Id.search_button;
+			global::com.refractored.Resource.Id.search_close_btn = global::QLKHO.Android.Resource.Id.search_close_btn;
+			global::com.refractored.Resource.Id.search_edit_frame = global::QLKHO.Android.Resource.Id.search_edit_frame;
+			global::com.refractored.Resource.Id.search_go_btn = global::QLKHO.Android.Resource.Id.search_go_btn;
+			global::com.refractored.Resource.Id.search_mag_icon = global::QLKHO.Android.Resource.Id.search_mag_icon;
+			global::com.refractored.Resource.Id.search_plate = global::QLKHO.Android.Resource.Id.search_plate;
+			global::com.refractored.Resource.Id.search_src_text = global::QLKHO.Android.Resource.Id.search_src_text;
+			global::com.refractored.Resource.Id.search_voice_btn = global::QLKHO.Android.Resource.Id.search_voice_btn;
+			global::com.refractored.Resource.Id.select_dialog_listview = global::QLKHO.Android.Resource.Id.select_dialog_listview;
+			global::com.refractored.Resource.Id.shortcut = global::QLKHO.Android.Resource.Id.shortcut;
+			global::com.refractored.Resource.Id.showCustom = global::QLKHO.Android.Resource.Id.showCustom;
+			global::com.refractored.Resource.Id.showHome = global::QLKHO.Android.Resource.Id.showHome;
+			global::com.refractored.Resource.Id.showTitle = global::QLKHO.Android.Resource.Id.showTitle;
+			global::com.refractored.Resource.Id.spacer = global::QLKHO.Android.Resource.Id.spacer;
+			global::com.refractored.Resource.Id.split_action_bar = global::QLKHO.Android.Resource.Id.split_action_bar;
+			global::com.refractored.Resource.Id.src_atop = global::QLKHO.Android.Resource.Id.src_atop;
+			global::com.refractored.Resource.Id.src_in = global::QLKHO.Android.Resource.Id.src_in;
+			global::com.refractored.Resource.Id.src_over = global::QLKHO.Android.Resource.Id.src_over;
+			global::com.refractored.Resource.Id.status_bar_latest_event_content = global::QLKHO.Android.Resource.Id.status_bar_latest_event_content;
+			global::com.refractored.Resource.Id.submit_area = global::QLKHO.Android.Resource.Id.submit_area;
+			global::com.refractored.Resource.Id.tabMode = global::QLKHO.Android.Resource.Id.tabMode;
+			global::com.refractored.Resource.Id.text = global::QLKHO.Android.Resource.Id.text;
+			global::com.refractored.Resource.Id.text2 = global::QLKHO.Android.Resource.Id.text2;
+			global::com.refractored.Resource.Id.textSpacerNoButtons = global::QLKHO.Android.Resource.Id.textSpacerNoButtons;
+			global::com.refractored.Resource.Id.time = global::QLKHO.Android.Resource.Id.time;
+			global::com.refractored.Resource.Id.title = global::QLKHO.Android.Resource.Id.title;
+			global::com.refractored.Resource.Id.title_template = global::QLKHO.Android.Resource.Id.title_template;
+			global::com.refractored.Resource.Id.topPanel = global::QLKHO.Android.Resource.Id.topPanel;
+			global::com.refractored.Resource.Id.up = global::QLKHO.Android.Resource.Id.up;
+			global::com.refractored.Resource.Id.useLogo = global::QLKHO.Android.Resource.Id.useLogo;
+			global::com.refractored.Resource.Id.withText = global::QLKHO.Android.Resource.Id.withText;
+			global::com.refractored.Resource.Id.wrap_content = global::QLKHO.Android.Resource.Id.wrap_content;
+			global::com.refractored.Resource.Integer.abc_config_activityDefaultDur = global::QLKHO.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::com.refractored.Resource.Integer.abc_config_activityShortDur = global::QLKHO.Android.Resource.Integer.abc_config_activityShortDur;
+			global::com.refractored.Resource.Integer.abc_max_action_buttons = global::QLKHO.Android.Resource.Integer.abc_max_action_buttons;
+			global::com.refractored.Resource.Integer.cancel_button_image_alpha = global::QLKHO.Android.Resource.Integer.cancel_button_image_alpha;
+			global::com.refractored.Resource.Integer.status_bar_notification_info_maxnum = global::QLKHO.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::QLKHO.Android.Resource.Layout.abc_action_bar_title_item;
+			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::QLKHO.Android.Resource.Layout.abc_action_bar_up_container;
+			global::com.refractored.Resource.Layout.abc_action_bar_view_list_nav_layout = global::QLKHO.Android.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_item_layout = global::QLKHO.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_layout = global::QLKHO.Android.Resource.Layout.abc_action_menu_layout;
+			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::QLKHO.Android.Resource.Layout.abc_action_mode_bar;
+			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::QLKHO.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::QLKHO.Android.Resource.Layout.abc_activity_chooser_view;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::QLKHO.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_button_bar_material = global::QLKHO.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::com.refractored.Resource.Layout.abc_alert_dialog_material = global::QLKHO.Android.Resource.Layout.abc_alert_dialog_material;
+			global::com.refractored.Resource.Layout.abc_dialog_title_material = global::QLKHO.Android.Resource.Layout.abc_dialog_title_material;
+			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::QLKHO.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::QLKHO.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_icon = global::QLKHO.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_layout = global::QLKHO.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_radio = global::QLKHO.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::com.refractored.Resource.Layout.abc_popup_menu_item_layout = global::QLKHO.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_screen_content_include = global::QLKHO.Android.Resource.Layout.abc_screen_content_include;
+			global::com.refractored.Resource.Layout.abc_screen_simple = global::QLKHO.Android.Resource.Layout.abc_screen_simple;
+			global::com.refractored.Resource.Layout.abc_screen_simple_overlay_action_mode = global::QLKHO.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::com.refractored.Resource.Layout.abc_screen_toolbar = global::QLKHO.Android.Resource.Layout.abc_screen_toolbar;
+			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::QLKHO.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::com.refractored.Resource.Layout.abc_search_view = global::QLKHO.Android.Resource.Layout.abc_search_view;
+			global::com.refractored.Resource.Layout.abc_select_dialog_material = global::QLKHO.Android.Resource.Layout.abc_select_dialog_material;
+			global::com.refractored.Resource.Layout.notification_media_action = global::QLKHO.Android.Resource.Layout.notification_media_action;
+			global::com.refractored.Resource.Layout.notification_media_cancel_action = global::QLKHO.Android.Resource.Layout.notification_media_cancel_action;
+			global::com.refractored.Resource.Layout.notification_template_big_media = global::QLKHO.Android.Resource.Layout.notification_template_big_media;
+			global::com.refractored.Resource.Layout.notification_template_big_media_narrow = global::QLKHO.Android.Resource.Layout.notification_template_big_media_narrow;
+			global::com.refractored.Resource.Layout.notification_template_lines = global::QLKHO.Android.Resource.Layout.notification_template_lines;
+			global::com.refractored.Resource.Layout.notification_template_media = global::QLKHO.Android.Resource.Layout.notification_template_media;
+			global::com.refractored.Resource.Layout.notification_template_part_chronometer = global::QLKHO.Android.Resource.Layout.notification_template_part_chronometer;
+			global::com.refractored.Resource.Layout.notification_template_part_time = global::QLKHO.Android.Resource.Layout.notification_template_part_time;
+			global::com.refractored.Resource.Layout.psts_tab = global::QLKHO.Android.Resource.Layout.psts_tab;
+			global::com.refractored.Resource.Layout.select_dialog_item_material = global::QLKHO.Android.Resource.Layout.select_dialog_item_material;
+			global::com.refractored.Resource.Layout.select_dialog_multichoice_material = global::QLKHO.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::com.refractored.Resource.Layout.select_dialog_singlechoice_material = global::QLKHO.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::QLKHO.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::com.refractored.Resource.String.abc_action_bar_home_description = global::QLKHO.Android.Resource.String.abc_action_bar_home_description;
+			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::QLKHO.Android.Resource.String.abc_action_bar_home_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::QLKHO.Android.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_up_description = global::QLKHO.Android.Resource.String.abc_action_bar_up_description;
+			global::com.refractored.Resource.String.abc_action_menu_overflow_description = global::QLKHO.Android.Resource.String.abc_action_menu_overflow_description;
+			global::com.refractored.Resource.String.abc_action_mode_done = global::QLKHO.Android.Resource.String.abc_action_mode_done;
+			global::com.refractored.Resource.String.abc_activity_chooser_view_see_all = global::QLKHO.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::com.refractored.Resource.String.abc_activitychooserview_choose_application = global::QLKHO.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::com.refractored.Resource.String.abc_capital_off = global::QLKHO.Android.Resource.String.abc_capital_off;
+			global::com.refractored.Resource.String.abc_capital_on = global::QLKHO.Android.Resource.String.abc_capital_on;
+			global::com.refractored.Resource.String.abc_search_hint = global::QLKHO.Android.Resource.String.abc_search_hint;
+			global::com.refractored.Resource.String.abc_searchview_description_clear = global::QLKHO.Android.Resource.String.abc_searchview_description_clear;
+			global::com.refractored.Resource.String.abc_searchview_description_query = global::QLKHO.Android.Resource.String.abc_searchview_description_query;
+			global::com.refractored.Resource.String.abc_searchview_description_search = global::QLKHO.Android.Resource.String.abc_searchview_description_search;
+			global::com.refractored.Resource.String.abc_searchview_description_submit = global::QLKHO.Android.Resource.String.abc_searchview_description_submit;
+			global::com.refractored.Resource.String.abc_searchview_description_voice = global::QLKHO.Android.Resource.String.abc_searchview_description_voice;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::QLKHO.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::QLKHO.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::QLKHO.Android.Resource.String.abc_toolbar_collapse_description;
+			global::com.refractored.Resource.String.status_bar_notification_info_overflow = global::QLKHO.Android.Resource.String.status_bar_notification_info_overflow;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat = global::QLKHO.Android.Resource.Style.AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.AlertDialog_AppCompat_Light = global::QLKHO.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Animation_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Animation_AppCompat_DropDownUp = global::QLKHO.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat = global::QLKHO.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::com.refractored.Resource.Style.Base_AlertDialog_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::QLKHO.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitle_AppCompat = global::QLKHO.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::QLKHO.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Button = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::QLKHO.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::QLKHO.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::QLKHO.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::QLKHO.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::QLKHO.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat = global::QLKHO.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::QLKHO.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::QLKHO.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::QLKHO.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::QLKHO.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::QLKHO.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::QLKHO.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat = global::QLKHO.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::QLKHO.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat = global::QLKHO.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V22_Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat = global::QLKHO.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V23_Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat = global::QLKHO.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::QLKHO.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::QLKHO.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::QLKHO.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Small = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ImageButton = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SeekBar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::QLKHO.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Style.Platform_AppCompat = global::QLKHO.Android.Resource.Style.Platform_AppCompat;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Light = global::QLKHO.Android.Resource.Style.Platform_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat = global::QLKHO.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::QLKHO.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::QLKHO.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat = global::QLKHO.Android.Resource.Style.Platform_V11_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V11_AppCompat_Light = global::QLKHO.Android.Resource.Style.Platform_V11_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat = global::QLKHO.Android.Resource.Style.Platform_V14_AppCompat;
+			global::com.refractored.Resource.Style.Platform_V14_AppCompat_Light = global::QLKHO.Android.Resource.Style.Platform_V14_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_Widget_AppCompat_Spinner = global::QLKHO.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::QLKHO.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::QLKHO.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::QLKHO.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::QLKHO.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body1 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body2 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Button = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Caption = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display1 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display2 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display3 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display4 = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Headline = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Menu = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::QLKHO.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent = global::QLKHO.Android.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::QLKHO.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::QLKHO.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::QLKHO.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::com.refractored.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::QLKHO.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::QLKHO.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::QLKHO.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::QLKHO.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Theme_AppCompat = global::QLKHO.Android.Resource.Style.Theme_AppCompat;
+			global::com.refractored.Resource.Style.Theme_AppCompat_CompactMenu = global::QLKHO.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_Alert = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::QLKHO.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::QLKHO.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_NoActionBar = global::QLKHO.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat = global::QLKHO.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::QLKHO.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark = global::QLKHO.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::QLKHO.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Light = global::QLKHO.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Colored = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Small = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::QLKHO.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::QLKHO.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::QLKHO.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::QLKHO.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::QLKHO.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_EditText = global::QLKHO.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ImageButton = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_SearchView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListPopupWindow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_DropDown = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_Menu = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu = global::QLKHO.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::QLKHO.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::QLKHO.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::QLKHO.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar_Small = global::QLKHO.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::QLKHO.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SeekBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::QLKHO.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::QLKHO.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Styleable.ActionBar = global::QLKHO.Android.Resource.Styleable.ActionBar;
+			global::com.refractored.Resource.Styleable.ActionBar_background = global::QLKHO.Android.Resource.Styleable.ActionBar_background;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundSplit = global::QLKHO.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundStacked = global::QLKHO.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetEnd = global::QLKHO.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetLeft = global::QLKHO.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetRight = global::QLKHO.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetStart = global::QLKHO.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.ActionBar_customNavigationLayout = global::QLKHO.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_displayOptions = global::QLKHO.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::com.refractored.Resource.Styleable.ActionBar_divider = global::QLKHO.Android.Resource.Styleable.ActionBar_divider;
+			global::com.refractored.Resource.Styleable.ActionBar_elevation = global::QLKHO.Android.Resource.Styleable.ActionBar_elevation;
+			global::com.refractored.Resource.Styleable.ActionBar_height = global::QLKHO.Android.Resource.Styleable.ActionBar_height;
+			global::com.refractored.Resource.Styleable.ActionBar_hideOnContentScroll = global::QLKHO.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::com.refractored.Resource.Styleable.ActionBar_homeAsUpIndicator = global::QLKHO.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.ActionBar_homeLayout = global::QLKHO.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_icon = global::QLKHO.Android.Resource.Styleable.ActionBar_icon;
+			global::com.refractored.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::QLKHO.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_itemPadding = global::QLKHO.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_logo = global::QLKHO.Android.Resource.Styleable.ActionBar_logo;
+			global::com.refractored.Resource.Styleable.ActionBar_navigationMode = global::QLKHO.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::com.refractored.Resource.Styleable.ActionBar_popupTheme = global::QLKHO.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarPadding = global::QLKHO.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarStyle = global::QLKHO.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitle = global::QLKHO.Android.Resource.Styleable.ActionBar_subtitle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitleTextStyle = global::QLKHO.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_title = global::QLKHO.Android.Resource.Styleable.ActionBar_title;
+			global::com.refractored.Resource.Styleable.ActionBar_titleTextStyle = global::QLKHO.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBarLayout = global::QLKHO.Android.Resource.Styleable.ActionBarLayout;
+			global::com.refractored.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::QLKHO.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView = global::QLKHO.Android.Resource.Styleable.ActionMenuItemView;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView_android_minWidth = global::QLKHO.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::com.refractored.Resource.Styleable.ActionMenuView = global::QLKHO.Android.Resource.Styleable.ActionMenuView;
+			global::com.refractored.Resource.Styleable.ActionMode = global::QLKHO.Android.Resource.Styleable.ActionMode;
+			global::com.refractored.Resource.Styleable.ActionMode_background = global::QLKHO.Android.Resource.Styleable.ActionMode_background;
+			global::com.refractored.Resource.Styleable.ActionMode_backgroundSplit = global::QLKHO.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionMode_closeItemLayout = global::QLKHO.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::com.refractored.Resource.Styleable.ActionMode_height = global::QLKHO.Android.Resource.Styleable.ActionMode_height;
+			global::com.refractored.Resource.Styleable.ActionMode_subtitleTextStyle = global::QLKHO.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionMode_titleTextStyle = global::QLKHO.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActivityChooserView = global::QLKHO.Android.Resource.Styleable.ActivityChooserView;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::QLKHO.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_initialActivityCount = global::QLKHO.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::com.refractored.Resource.Styleable.AlertDialog = global::QLKHO.Android.Resource.Styleable.AlertDialog;
+			global::com.refractored.Resource.Styleable.AlertDialog_android_layout = global::QLKHO.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::com.refractored.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::QLKHO.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listItemLayout = global::QLKHO.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_listLayout = global::QLKHO.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::QLKHO.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::QLKHO.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::com.refractored.Resource.Styleable.AppCompatImageView = global::QLKHO.Android.Resource.Styleable.AppCompatImageView;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_android_src = global::QLKHO.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::com.refractored.Resource.Styleable.AppCompatImageView_srcCompat = global::QLKHO.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::com.refractored.Resource.Styleable.AppCompatTextView = global::QLKHO.Android.Resource.Styleable.AppCompatTextView;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_android_textAppearance = global::QLKHO.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTextView_textAllCaps = global::QLKHO.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::com.refractored.Resource.Styleable.AppCompatTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarDivider = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSize = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkboxStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorAccent = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlActivated = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorControlNormal = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimary = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_controlBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dialogTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dividerVertical = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextColor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_editTextStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_searchViewStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_seekBarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_spinnerStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_switchStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_toolbarStyle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBar = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::com.refractored.Resource.Styleable.AppCompatTheme_windowNoTitle = global::QLKHO.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout = global::QLKHO.Android.Resource.Styleable.ButtonBarLayout;
+			global::com.refractored.Resource.Styleable.ButtonBarLayout_allowStacking = global::QLKHO.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::com.refractored.Resource.Styleable.CompoundButton = global::QLKHO.Android.Resource.Styleable.CompoundButton;
+			global::com.refractored.Resource.Styleable.CompoundButton_android_button = global::QLKHO.Android.Resource.Styleable.CompoundButton_android_button;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTint = global::QLKHO.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::com.refractored.Resource.Styleable.CompoundButton_buttonTintMode = global::QLKHO.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_barLength = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_color = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_drawableSize = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_spinBars = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_thickness = global::QLKHO.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_gravity = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_orientation = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_divider = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_showDividers = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::QLKHO.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::com.refractored.Resource.Styleable.ListPopupWindow = global::QLKHO.Android.Resource.Styleable.ListPopupWindow;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::QLKHO.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::QLKHO.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::com.refractored.Resource.Styleable.MenuGroup = global::QLKHO.Android.Resource.Styleable.MenuGroup;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_checkableBehavior = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_enabled = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_id = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_id;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_menuCategory = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_orderInCategory = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_visible = global::QLKHO.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem = global::QLKHO.Android.Resource.Styleable.MenuItem;
+			global::com.refractored.Resource.Styleable.MenuItem_actionLayout = global::QLKHO.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::com.refractored.Resource.Styleable.MenuItem_actionProviderClass = global::QLKHO.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::com.refractored.Resource.Styleable.MenuItem_actionViewClass = global::QLKHO.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::com.refractored.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::QLKHO.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checkable = global::QLKHO.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checked = global::QLKHO.Android.Resource.Styleable.MenuItem_android_checked;
+			global::com.refractored.Resource.Styleable.MenuItem_android_enabled = global::QLKHO.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuItem_android_icon = global::QLKHO.Android.Resource.Styleable.MenuItem_android_icon;
+			global::com.refractored.Resource.Styleable.MenuItem_android_id = global::QLKHO.Android.Resource.Styleable.MenuItem_android_id;
+			global::com.refractored.Resource.Styleable.MenuItem_android_menuCategory = global::QLKHO.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_numericShortcut = global::QLKHO.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_onClick = global::QLKHO.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::com.refractored.Resource.Styleable.MenuItem_android_orderInCategory = global::QLKHO.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_title = global::QLKHO.Android.Resource.Styleable.MenuItem_android_title;
+			global::com.refractored.Resource.Styleable.MenuItem_android_titleCondensed = global::QLKHO.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::com.refractored.Resource.Styleable.MenuItem_android_visible = global::QLKHO.Android.Resource.Styleable.MenuItem_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem_showAsAction = global::QLKHO.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::com.refractored.Resource.Styleable.MenuView = global::QLKHO.Android.Resource.Styleable.MenuView;
+			global::com.refractored.Resource.Styleable.MenuView_android_headerBackground = global::QLKHO.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_horizontalDivider = global::QLKHO.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemBackground = global::QLKHO.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::QLKHO.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemTextAppearance = global::QLKHO.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::com.refractored.Resource.Styleable.MenuView_android_verticalDivider = global::QLKHO.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_windowAnimationStyle = global::QLKHO.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.MenuView_preserveIconSpacing = global::QLKHO.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight = global::QLKHO.Android.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight;
+			global::com.refractored.Resource.Styleable.PopupWindow = global::QLKHO.Android.Resource.Styleable.PopupWindow;
+			global::com.refractored.Resource.Styleable.PopupWindow_android_popupBackground = global::QLKHO.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::com.refractored.Resource.Styleable.PopupWindow_overlapAnchor = global::QLKHO.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState = global::QLKHO.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::QLKHO.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::com.refractored.Resource.Styleable.SearchView = global::QLKHO.Android.Resource.Styleable.SearchView;
+			global::com.refractored.Resource.Styleable.SearchView_android_focusable = global::QLKHO.Android.Resource.Styleable.SearchView_android_focusable;
+			global::com.refractored.Resource.Styleable.SearchView_android_imeOptions = global::QLKHO.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::com.refractored.Resource.Styleable.SearchView_android_inputType = global::QLKHO.Android.Resource.Styleable.SearchView_android_inputType;
+			global::com.refractored.Resource.Styleable.SearchView_android_maxWidth = global::QLKHO.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::com.refractored.Resource.Styleable.SearchView_closeIcon = global::QLKHO.Android.Resource.Styleable.SearchView_closeIcon;
+			global::com.refractored.Resource.Styleable.SearchView_commitIcon = global::QLKHO.Android.Resource.Styleable.SearchView_commitIcon;
+			global::com.refractored.Resource.Styleable.SearchView_defaultQueryHint = global::QLKHO.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::com.refractored.Resource.Styleable.SearchView_goIcon = global::QLKHO.Android.Resource.Styleable.SearchView_goIcon;
+			global::com.refractored.Resource.Styleable.SearchView_iconifiedByDefault = global::QLKHO.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::com.refractored.Resource.Styleable.SearchView_layout = global::QLKHO.Android.Resource.Styleable.SearchView_layout;
+			global::com.refractored.Resource.Styleable.SearchView_queryBackground = global::QLKHO.Android.Resource.Styleable.SearchView_queryBackground;
+			global::com.refractored.Resource.Styleable.SearchView_queryHint = global::QLKHO.Android.Resource.Styleable.SearchView_queryHint;
+			global::com.refractored.Resource.Styleable.SearchView_searchHintIcon = global::QLKHO.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::com.refractored.Resource.Styleable.SearchView_searchIcon = global::QLKHO.Android.Resource.Styleable.SearchView_searchIcon;
+			global::com.refractored.Resource.Styleable.SearchView_submitBackground = global::QLKHO.Android.Resource.Styleable.SearchView_submitBackground;
+			global::com.refractored.Resource.Styleable.SearchView_suggestionRowLayout = global::QLKHO.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::com.refractored.Resource.Styleable.SearchView_voiceIcon = global::QLKHO.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::com.refractored.Resource.Styleable.Spinner = global::QLKHO.Android.Resource.Styleable.Spinner;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownWidth = global::QLKHO.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::com.refractored.Resource.Styleable.Spinner_android_entries = global::QLKHO.Android.Resource.Styleable.Spinner_android_entries;
+			global::com.refractored.Resource.Styleable.Spinner_android_popupBackground = global::QLKHO.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::com.refractored.Resource.Styleable.Spinner_android_prompt = global::QLKHO.Android.Resource.Styleable.Spinner_android_prompt;
+			global::com.refractored.Resource.Styleable.Spinner_popupTheme = global::QLKHO.Android.Resource.Styleable.Spinner_popupTheme;
+			global::com.refractored.Resource.Styleable.SwitchCompat = global::QLKHO.Android.Resource.Styleable.SwitchCompat;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOff = global::QLKHO.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOn = global::QLKHO.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_thumb = global::QLKHO.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::com.refractored.Resource.Styleable.SwitchCompat_showText = global::QLKHO.Android.Resource.Styleable.SwitchCompat_showText;
+			global::com.refractored.Resource.Styleable.SwitchCompat_splitTrack = global::QLKHO.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchMinWidth = global::QLKHO.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchPadding = global::QLKHO.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::QLKHO.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::QLKHO.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::QLKHO.Android.Resource.Styleable.SwitchCompat_track;
+			global::com.refractored.Resource.Styleable.TextAppearance = global::QLKHO.Android.Resource.Styleable.TextAppearance;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowColor = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDx = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowDy = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_shadowRadius = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textColor = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textSize = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_textStyle = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::com.refractored.Resource.Styleable.TextAppearance_android_typeface = global::QLKHO.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::com.refractored.Resource.Styleable.TextAppearance_textAllCaps = global::QLKHO.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::com.refractored.Resource.Styleable.Toolbar = global::QLKHO.Android.Resource.Styleable.Toolbar;
+			global::com.refractored.Resource.Styleable.Toolbar_android_gravity = global::QLKHO.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::com.refractored.Resource.Styleable.Toolbar_android_minHeight = global::QLKHO.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseContentDescription = global::QLKHO.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseIcon = global::QLKHO.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetEnd = global::QLKHO.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetLeft = global::QLKHO.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetRight = global::QLKHO.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetStart = global::QLKHO.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.Toolbar_logo = global::QLKHO.Android.Resource.Styleable.Toolbar_logo;
+			global::com.refractored.Resource.Styleable.Toolbar_logoDescription = global::QLKHO.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_maxButtonHeight = global::QLKHO.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationContentDescription = global::QLKHO.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationIcon = global::QLKHO.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_popupTheme = global::QLKHO.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitle = global::QLKHO.Android.Resource.Styleable.Toolbar_subtitle;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextAppearance = global::QLKHO.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextColor = global::QLKHO.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::com.refractored.Resource.Styleable.Toolbar_title = global::QLKHO.Android.Resource.Styleable.Toolbar_title;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginBottom = global::QLKHO.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginEnd = global::QLKHO.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginStart = global::QLKHO.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginTop = global::QLKHO.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMargins = global::QLKHO.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextAppearance = global::QLKHO.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextColor = global::QLKHO.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::com.refractored.Resource.Styleable.View = global::QLKHO.Android.Resource.Styleable.View;
+			global::com.refractored.Resource.Styleable.View_android_focusable = global::QLKHO.Android.Resource.Styleable.View_android_focusable;
+			global::com.refractored.Resource.Styleable.View_android_theme = global::QLKHO.Android.Resource.Styleable.View_android_theme;
+			global::com.refractored.Resource.Styleable.View_paddingEnd = global::QLKHO.Android.Resource.Styleable.View_paddingEnd;
+			global::com.refractored.Resource.Styleable.View_paddingStart = global::QLKHO.Android.Resource.Styleable.View_paddingStart;
+			global::com.refractored.Resource.Styleable.View_theme = global::QLKHO.Android.Resource.Styleable.View_theme;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper = global::QLKHO.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_android_background = global::QLKHO.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::QLKHO.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::com.refractored.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::QLKHO.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::com.refractored.Resource.Styleable.ViewStubCompat = global::QLKHO.Android.Resource.Styleable.ViewStubCompat;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_id = global::QLKHO.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_inflatedId = global::QLKHO.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_layout = global::QLKHO.Android.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -781,6 +2069,57 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f010037
 			public const int progressBarStyle = 2130772023;
 			
+			// aapt resource value: 0x7f01013e
+			public const int pstsDividerColor = 2130772286;
+			
+			// aapt resource value: 0x7f010142
+			public const int pstsDividerPadding = 2130772290;
+			
+			// aapt resource value: 0x7f01013f
+			public const int pstsDividerWidth = 2130772287;
+			
+			// aapt resource value: 0x7f01013c
+			public const int pstsIndicatorColor = 2130772284;
+			
+			// aapt resource value: 0x7f010140
+			public const int pstsIndicatorHeight = 2130772288;
+			
+			// aapt resource value: 0x7f010148
+			public const int pstsPaddingMiddle = 2130772296;
+			
+			// aapt resource value: 0x7f010144
+			public const int pstsScrollOffset = 2130772292;
+			
+			// aapt resource value: 0x7f010146
+			public const int pstsShouldExpand = 2130772294;
+			
+			// aapt resource value: 0x7f010145
+			public const int pstsTabBackground = 2130772293;
+			
+			// aapt resource value: 0x7f010143
+			public const int pstsTabPaddingLeftRight = 2130772291;
+			
+			// aapt resource value: 0x7f010147
+			public const int pstsTextAllCaps = 2130772295;
+			
+			// aapt resource value: 0x7f01014a
+			public const int pstsTextAlpha = 2130772298;
+			
+			// aapt resource value: 0x7f010149
+			public const int pstsTextColorSelected = 2130772297;
+			
+			// aapt resource value: 0x7f01014c
+			public const int pstsTextSelectedStyle = 2130772300;
+			
+			// aapt resource value: 0x7f01014b
+			public const int pstsTextStyle = 2130772299;
+			
+			// aapt resource value: 0x7f01013d
+			public const int pstsUnderlineColor = 2130772285;
+			
+			// aapt resource value: 0x7f010141
+			public const int pstsUnderlineHeight = 2130772289;
+			
 			// aapt resource value: 0x7f0100da
 			public const int queryBackground = 2130772186;
 			
@@ -1110,32 +2449,32 @@ namespace QLKHO.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0048
-			public const int abc_background_cache_hint_selector_material_dark = 2131427400;
-			
 			// aapt resource value: 0x7f0b0049
-			public const int abc_background_cache_hint_selector_material_light = 2131427401;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427401;
 			
 			// aapt resource value: 0x7f0b004a
-			public const int abc_color_highlight_material = 2131427402;
+			public const int abc_background_cache_hint_selector_material_light = 2131427402;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int abc_color_highlight_material = 2131427403;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_input_method_navigation_guard = 2131427332;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int abc_primary_text_disable_only_material_dark = 2131427403;
-			
 			// aapt resource value: 0x7f0b004c
-			public const int abc_primary_text_disable_only_material_light = 2131427404;
+			public const int abc_primary_text_disable_only_material_dark = 2131427404;
 			
 			// aapt resource value: 0x7f0b004d
-			public const int abc_primary_text_material_dark = 2131427405;
+			public const int abc_primary_text_disable_only_material_light = 2131427405;
 			
 			// aapt resource value: 0x7f0b004e
-			public const int abc_primary_text_material_light = 2131427406;
+			public const int abc_primary_text_material_dark = 2131427406;
 			
 			// aapt resource value: 0x7f0b004f
-			public const int abc_search_url_text = 2131427407;
+			public const int abc_primary_text_material_light = 2131427407;
+			
+			// aapt resource value: 0x7f0b0050
+			public const int abc_search_url_text = 2131427408;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int abc_search_url_text_normal = 2131427333;
@@ -1146,11 +2485,11 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f0b0007
 			public const int abc_search_url_text_selected = 2131427335;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_secondary_text_material_dark = 2131427408;
-			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_secondary_text_material_light = 2131427409;
+			public const int abc_secondary_text_material_dark = 2131427409;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int abc_secondary_text_material_light = 2131427410;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int accent_material_dark = 2131427336;
@@ -1326,6 +2665,9 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f0b0033
 			public const int primary_text_disabled_material_light = 2131427379;
 			
+			// aapt resource value: 0x7f0b0048
+			public const int psts_background_tab_pressed = 2131427400;
+			
 			// aapt resource value: 0x7f0b0034
 			public const int ripple_material_dark = 2131427380;
 			
@@ -1350,11 +2692,11 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f0b003b
 			public const int switch_thumb_disabled_material_light = 2131427387;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int switch_thumb_material_dark = 2131427410;
-			
 			// aapt resource value: 0x7f0b0053
-			public const int switch_thumb_material_light = 2131427411;
+			public const int switch_thumb_material_dark = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int switch_thumb_material_light = 2131427412;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int switch_thumb_normal_material_dark = 2131427388;
@@ -2234,14 +3576,17 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f0200a5
 			public const int mr_ic_play_light = 2130837669;
 			
-			// aapt resource value: 0x7f0200a8
-			public const int notification_template_icon_bg = 2130837672;
+			// aapt resource value: 0x7f0200a9
+			public const int notification_template_icon_bg = 2130837673;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int Search = 2130837670;
+			public const int psts_background_tab = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ThongKe = 2130837671;
+			public const int Search = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ThongKe = 2130837672;
 			
 			static Drawable()
 			{
@@ -2256,59 +3601,59 @@ namespace QLKHO.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070074
-			public const int DiaChiKho = 2131165300;
-			
-			// aapt resource value: 0x7f0700c9
-			public const int MaHH = 2131165385;
-			
-			// aapt resource value: 0x7f0700cc
-			public const int MaKho = 2131165388;
-			
-			// aapt resource value: 0x7f0700cd
-			public const int MaNV = 2131165389;
-			
-			// aapt resource value: 0x7f0700cb
-			public const int MoTa = 2131165387;
-			
 			// aapt resource value: 0x7f070075
-			public const int NhanVien = 2131165301;
+			public const int DiaChiKho = 2131165301;
 			
-			// aapt resource value: 0x7f0700ca
-			public const int TenHH = 2131165386;
+			// aapt resource value: 0x7f0700d0
+			public const int GiaNhap = 2131165392;
 			
-			// aapt resource value: 0x7f070073
-			public const int TenKho = 2131165299;
+			// aapt resource value: 0x7f0700d1
+			public const int MaKho = 2131165393;
 			
-			// aapt resource value: 0x7f0700bc
-			public const int action0 = 2131165372;
+			// aapt resource value: 0x7f0700d2
+			public const int MaNV = 2131165394;
 			
-			// aapt resource value: 0x7f07005a
-			public const int action_bar = 2131165274;
+			// aapt resource value: 0x7f0700cf
+			public const int MoTa = 2131165391;
+			
+			// aapt resource value: 0x7f070076
+			public const int NhanVien = 2131165302;
+			
+			// aapt resource value: 0x7f0700ce
+			public const int TenHH = 2131165390;
+			
+			// aapt resource value: 0x7f070074
+			public const int TenKho = 2131165300;
+			
+			// aapt resource value: 0x7f0700c0
+			public const int action0 = 2131165376;
+			
+			// aapt resource value: 0x7f07005c
+			public const int action_bar = 2131165276;
 			
 			// aapt resource value: 0x7f070001
 			public const int action_bar_activity_content = 2131165185;
 			
-			// aapt resource value: 0x7f070059
-			public const int action_bar_container = 2131165273;
+			// aapt resource value: 0x7f07005b
+			public const int action_bar_container = 2131165275;
 			
-			// aapt resource value: 0x7f070055
-			public const int action_bar_root = 2131165269;
+			// aapt resource value: 0x7f070057
+			public const int action_bar_root = 2131165271;
 			
 			// aapt resource value: 0x7f070002
 			public const int action_bar_spinner = 2131165186;
 			
-			// aapt resource value: 0x7f07003b
-			public const int action_bar_subtitle = 2131165243;
+			// aapt resource value: 0x7f07003d
+			public const int action_bar_subtitle = 2131165245;
 			
-			// aapt resource value: 0x7f07003a
-			public const int action_bar_title = 2131165242;
+			// aapt resource value: 0x7f07003c
+			public const int action_bar_title = 2131165244;
 			
-			// aapt resource value: 0x7f07005b
-			public const int action_context_bar = 2131165275;
+			// aapt resource value: 0x7f07005d
+			public const int action_context_bar = 2131165277;
 			
-			// aapt resource value: 0x7f0700c0
-			public const int action_divider = 2131165376;
+			// aapt resource value: 0x7f0700c4
+			public const int action_divider = 2131165380;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2316,23 +3661,20 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070004
 			public const int action_menu_presenter = 2131165188;
 			
-			// aapt resource value: 0x7f070057
-			public const int action_mode_bar = 2131165271;
+			// aapt resource value: 0x7f070059
+			public const int action_mode_bar = 2131165273;
 			
-			// aapt resource value: 0x7f070056
-			public const int action_mode_bar_stub = 2131165270;
+			// aapt resource value: 0x7f070058
+			public const int action_mode_bar_stub = 2131165272;
 			
-			// aapt resource value: 0x7f07003c
-			public const int action_mode_close_button = 2131165244;
+			// aapt resource value: 0x7f07003e
+			public const int action_mode_close_button = 2131165246;
 			
-			// aapt resource value: 0x7f07003d
-			public const int activity_chooser_view_content = 2131165245;
+			// aapt resource value: 0x7f07003f
+			public const int activity_chooser_view_content = 2131165247;
 			
-			// aapt resource value: 0x7f07006b
-			public const int addr = 2131165291;
-			
-			// aapt resource value: 0x7f070049
-			public const int alertTitle = 2131165257;
+			// aapt resource value: 0x7f07004b
+			public const int alertTitle = 2131165259;
 			
 			// aapt resource value: 0x7f07001e
 			public const int always = 2131165214;
@@ -2340,26 +3682,29 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07001b
 			public const int beginning = 2131165211;
 			
+			// aapt resource value: 0x7f07003a
+			public const int bold = 2131165242;
+			
 			// aapt resource value: 0x7f07002a
 			public const int bottom = 2131165226;
 			
-			// aapt resource value: 0x7f070086
-			public const int btnDangKy = 2131165318;
-			
 			// aapt resource value: 0x7f070089
-			public const int btnDangNhap = 2131165321;
+			public const int btnDangKy = 2131165321;
 			
-			// aapt resource value: 0x7f07009e
-			public const int btnImgExpander = 2131165342;
+			// aapt resource value: 0x7f07008c
+			public const int btnDangNhap = 2131165324;
 			
-			// aapt resource value: 0x7f070095
-			public const int btnsearch = 2131165333;
+			// aapt resource value: 0x7f0700a2
+			public const int btnImgExpander = 2131165346;
 			
-			// aapt resource value: 0x7f070044
-			public const int buttonPanel = 2131165252;
+			// aapt resource value: 0x7f070098
+			public const int btnsearch = 2131165336;
 			
-			// aapt resource value: 0x7f0700bd
-			public const int cancel_action = 2131165373;
+			// aapt resource value: 0x7f070046
+			public const int buttonPanel = 2131165254;
+			
+			// aapt resource value: 0x7f0700c1
+			public const int cancel_action = 2131165377;
 			
 			// aapt resource value: 0x7f07002b
 			public const int center = 2131165227;
@@ -2370,14 +3715,14 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07002d
 			public const int center_vertical = 2131165229;
 			
-			// aapt resource value: 0x7f070052
-			public const int checkbox = 2131165266;
+			// aapt resource value: 0x7f070054
+			public const int checkbox = 2131165268;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int chronometer = 2131165379;
+			// aapt resource value: 0x7f0700c7
+			public const int chronometer = 2131165383;
 			
-			// aapt resource value: 0x7f070076
-			public const int clear = 2131165302;
+			// aapt resource value: 0x7f07007a
+			public const int clear = 2131165306;
 			
 			// aapt resource value: 0x7f070033
 			public const int clip_horizontal = 2131165235;
@@ -2388,68 +3733,65 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07001f
 			public const int collapseActionView = 2131165215;
 			
-			// aapt resource value: 0x7f07004a
-			public const int contentPanel = 2131165258;
+			// aapt resource value: 0x7f07004c
+			public const int contentPanel = 2131165260;
 			
-			// aapt resource value: 0x7f070050
-			public const int custom = 2131165264;
+			// aapt resource value: 0x7f070052
+			public const int custom = 2131165266;
 			
-			// aapt resource value: 0x7f07004f
-			public const int customPanel = 2131165263;
+			// aapt resource value: 0x7f070051
+			public const int customPanel = 2131165265;
 			
-			// aapt resource value: 0x7f07007c
-			public const int date_select_button = 2131165308;
+			// aapt resource value: 0x7f07007f
+			public const int date_select_button = 2131165311;
 			
-			// aapt resource value: 0x7f070058
-			public const int decor_content_parent = 2131165272;
+			// aapt resource value: 0x7f07005a
+			public const int decor_content_parent = 2131165274;
 			
-			// aapt resource value: 0x7f070040
-			public const int default_activity_button = 2131165248;
+			// aapt resource value: 0x7f070042
+			public const int default_activity_button = 2131165250;
 			
-			// aapt resource value: 0x7f070072
-			public const int del = 2131165298;
+			// aapt resource value: 0x7f070079
+			public const int del = 2131165305;
 			
-			// aapt resource value: 0x7f07006f
-			public const int delivery = 2131165295;
+			// aapt resource value: 0x7f07008e
+			public const int design_bottom_sheet = 2131165326;
 			
-			// aapt resource value: 0x7f07008b
-			public const int design_bottom_sheet = 2131165323;
+			// aapt resource value: 0x7f070095
+			public const int design_menu_item_action_area = 2131165333;
+			
+			// aapt resource value: 0x7f070094
+			public const int design_menu_item_action_area_stub = 2131165332;
+			
+			// aapt resource value: 0x7f070093
+			public const int design_menu_item_text = 2131165331;
 			
 			// aapt resource value: 0x7f070092
-			public const int design_menu_item_action_area = 2131165330;
+			public const int design_navigation_view = 2131165330;
 			
-			// aapt resource value: 0x7f070091
-			public const int design_menu_item_action_area_stub = 2131165329;
-			
-			// aapt resource value: 0x7f070090
-			public const int design_menu_item_text = 2131165328;
-			
-			// aapt resource value: 0x7f07008f
-			public const int design_navigation_view = 2131165327;
-			
-			// aapt resource value: 0x7f070069
-			public const int details = 2131165289;
+			// aapt resource value: 0x7f07006c
+			public const int details = 2131165292;
 			
 			// aapt resource value: 0x7f07000e
 			public const int disableHome = 2131165198;
 			
-			// aapt resource value: 0x7f07005c
-			public const int edit_query = 2131165276;
+			// aapt resource value: 0x7f07005e
+			public const int edit_query = 2131165278;
 			
-			// aapt resource value: 0x7f070088
-			public const int edtPassWord = 2131165320;
+			// aapt resource value: 0x7f07008b
+			public const int edtPassWord = 2131165323;
 			
-			// aapt resource value: 0x7f070087
-			public const int edtUserName = 2131165319;
+			// aapt resource value: 0x7f07008a
+			public const int edtUserName = 2131165322;
 			
-			// aapt resource value: 0x7f070093
-			public const int edtsearch = 2131165331;
+			// aapt resource value: 0x7f070096
+			public const int edtsearch = 2131165334;
 			
 			// aapt resource value: 0x7f07001c
 			public const int end = 2131165212;
 			
-			// aapt resource value: 0x7f0700c8
-			public const int end_padder = 2131165384;
+			// aapt resource value: 0x7f0700cc
+			public const int end_padder = 2131165388;
 			
 			// aapt resource value: 0x7f070023
 			public const int enterAlways = 2131165219;
@@ -2460,11 +3802,11 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070025
 			public const int exitUntilCollapsed = 2131165221;
 			
-			// aapt resource value: 0x7f07003e
-			public const int expand_activities_button = 2131165246;
+			// aapt resource value: 0x7f070040
+			public const int expand_activities_button = 2131165248;
 			
-			// aapt resource value: 0x7f070051
-			public const int expanded_menu = 2131165265;
+			// aapt resource value: 0x7f070053
+			public const int expanded_menu = 2131165267;
 			
 			// aapt resource value: 0x7f070035
 			public const int fill = 2131165237;
@@ -2478,11 +3820,8 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070038
 			public const int @fixed = 2131165240;
 			
-			// aapt resource value: 0x7f070097
-			public const int fragmentContainer = 2131165335;
-			
-			// aapt resource value: 0x7f070098
-			public const int fragmentContainerKho = 2131165336;
+			// aapt resource value: 0x7f07009c
+			public const int fragmentContainerKho = 2131165340;
 			
 			// aapt resource value: 0x7f070005
 			public const int home = 2131165189;
@@ -2490,53 +3829,56 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07000f
 			public const int homeAsUp = 2131165199;
 			
-			// aapt resource value: 0x7f070042
-			public const int icon = 2131165250;
+			// aapt resource value: 0x7f070044
+			public const int icon = 2131165252;
 			
 			// aapt resource value: 0x7f070020
 			public const int ifRoom = 2131165216;
 			
-			// aapt resource value: 0x7f07003f
-			public const int image = 2131165247;
+			// aapt resource value: 0x7f070041
+			public const int image = 2131165249;
 			
-			// aapt resource value: 0x7f0700c7
-			public const int info = 2131165383;
+			// aapt resource value: 0x7f0700cb
+			public const int info = 2131165387;
+			
+			// aapt resource value: 0x7f07003b
+			public const int italic = 2131165243;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int ivMenuImg = 2131165345;
+			// aapt resource value: 0x7f0700a5
+			public const int ivMenuImg = 2131165349;
 			
 			// aapt resource value: 0x7f07002f
 			public const int left = 2131165231;
 			
-			// aapt resource value: 0x7f0700c1
-			public const int line1 = 2131165377;
-			
 			// aapt resource value: 0x7f0700c5
-			public const int line3 = 2131165381;
+			public const int line1 = 2131165381;
+			
+			// aapt resource value: 0x7f0700c9
+			public const int line3 = 2131165385;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
 			
-			// aapt resource value: 0x7f070041
-			public const int list_item = 2131165249;
+			// aapt resource value: 0x7f070043
+			public const int list_item = 2131165251;
 			
-			// aapt resource value: 0x7f070096
-			public const int lvKho = 2131165334;
+			// aapt resource value: 0x7f070099
+			public const int lvKho = 2131165337;
 			
-			// aapt resource value: 0x7f070094
-			public const int lvhanghoa = 2131165332;
+			// aapt resource value: 0x7f070097
+			public const int lvhanghoa = 2131165335;
 			
-			// aapt resource value: 0x7f0700bf
-			public const int media_actions = 2131165375;
+			// aapt resource value: 0x7f0700c3
+			public const int media_actions = 2131165379;
 			
-			// aapt resource value: 0x7f07009a
-			public const int menuIconImgView = 2131165338;
+			// aapt resource value: 0x7f07009e
+			public const int menuIconImgView = 2131165342;
 			
-			// aapt resource value: 0x7f07009f
-			public const int menuListView = 2131165343;
+			// aapt resource value: 0x7f0700a3
+			public const int menuListView = 2131165347;
 			
 			// aapt resource value: 0x7f07001d
 			public const int middle = 2131165213;
@@ -2544,86 +3886,83 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070037
 			public const int mini = 2131165239;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int mr_art = 2131165358;
-			
-			// aapt resource value: 0x7f0700a3
-			public const int mr_chooser_list = 2131165347;
-			
-			// aapt resource value: 0x7f0700a6
-			public const int mr_chooser_route_desc = 2131165350;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int mr_chooser_route_icon = 2131165348;
-			
-			// aapt resource value: 0x7f0700a5
-			public const int mr_chooser_route_name = 2131165349;
-			
-			// aapt resource value: 0x7f0700ab
-			public const int mr_close = 2131165355;
-			
-			// aapt resource value: 0x7f0700b1
-			public const int mr_control_divider = 2131165361;
-			
-			// aapt resource value: 0x7f0700b7
-			public const int mr_control_play_pause = 2131165367;
-			
-			// aapt resource value: 0x7f0700ba
-			public const int mr_control_subtitle = 2131165370;
-			
-			// aapt resource value: 0x7f0700b9
-			public const int mr_control_title = 2131165369;
-			
-			// aapt resource value: 0x7f0700b8
-			public const int mr_control_title_container = 2131165368;
-			
-			// aapt resource value: 0x7f0700ac
-			public const int mr_custom_control = 2131165356;
-			
-			// aapt resource value: 0x7f0700ad
-			public const int mr_default_control = 2131165357;
-			
-			// aapt resource value: 0x7f0700a8
-			public const int mr_dialog_area = 2131165352;
+			// aapt resource value: 0x7f0700b2
+			public const int mr_art = 2131165362;
 			
 			// aapt resource value: 0x7f0700a7
-			public const int mr_expandable_area = 2131165351;
-			
-			// aapt resource value: 0x7f0700bb
-			public const int mr_group_expand_collapse = 2131165371;
-			
-			// aapt resource value: 0x7f0700af
-			public const int mr_media_main_control = 2131165359;
+			public const int mr_chooser_list = 2131165351;
 			
 			// aapt resource value: 0x7f0700aa
-			public const int mr_name = 2131165354;
+			public const int mr_chooser_route_desc = 2131165354;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int mr_playback_control = 2131165360;
+			// aapt resource value: 0x7f0700a8
+			public const int mr_chooser_route_icon = 2131165352;
 			
 			// aapt resource value: 0x7f0700a9
-			public const int mr_title_bar = 2131165353;
+			public const int mr_chooser_route_name = 2131165353;
 			
-			// aapt resource value: 0x7f0700b2
-			public const int mr_volume_control = 2131165362;
-			
-			// aapt resource value: 0x7f0700b3
-			public const int mr_volume_group_list = 2131165363;
+			// aapt resource value: 0x7f0700af
+			public const int mr_close = 2131165359;
 			
 			// aapt resource value: 0x7f0700b5
-			public const int mr_volume_item_icon = 2131165365;
+			public const int mr_control_divider = 2131165365;
+			
+			// aapt resource value: 0x7f0700bb
+			public const int mr_control_play_pause = 2131165371;
+			
+			// aapt resource value: 0x7f0700be
+			public const int mr_control_subtitle = 2131165374;
+			
+			// aapt resource value: 0x7f0700bd
+			public const int mr_control_title = 2131165373;
+			
+			// aapt resource value: 0x7f0700bc
+			public const int mr_control_title_container = 2131165372;
+			
+			// aapt resource value: 0x7f0700b0
+			public const int mr_custom_control = 2131165360;
+			
+			// aapt resource value: 0x7f0700b1
+			public const int mr_default_control = 2131165361;
+			
+			// aapt resource value: 0x7f0700ac
+			public const int mr_dialog_area = 2131165356;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int mr_expandable_area = 2131165355;
+			
+			// aapt resource value: 0x7f0700bf
+			public const int mr_group_expand_collapse = 2131165375;
+			
+			// aapt resource value: 0x7f0700b3
+			public const int mr_media_main_control = 2131165363;
+			
+			// aapt resource value: 0x7f0700ae
+			public const int mr_name = 2131165358;
+			
+			// aapt resource value: 0x7f0700b4
+			public const int mr_playback_control = 2131165364;
+			
+			// aapt resource value: 0x7f0700ad
+			public const int mr_title_bar = 2131165357;
 			
 			// aapt resource value: 0x7f0700b6
-			public const int mr_volume_slider = 2131165366;
+			public const int mr_volume_control = 2131165366;
+			
+			// aapt resource value: 0x7f0700b7
+			public const int mr_volume_group_list = 2131165367;
+			
+			// aapt resource value: 0x7f0700b9
+			public const int mr_volume_item_icon = 2131165369;
+			
+			// aapt resource value: 0x7f0700ba
+			public const int mr_volume_slider = 2131165370;
 			
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f07006a
-			public const int name = 2131165290;
-			
-			// aapt resource value: 0x7f07008e
-			public const int navigation_header_container = 2131165326;
+			// aapt resource value: 0x7f070091
+			public const int navigation_header_container = 2131165329;
 			
 			// aapt resource value: 0x7f070021
 			public const int never = 2131165217;
@@ -2634,11 +3973,14 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07000c
 			public const int normal = 2131165196;
 			
+			// aapt resource value: 0x7f07009b
+			public const int pager = 2131165339;
+			
 			// aapt resource value: 0x7f070028
 			public const int parallax = 2131165224;
 			
-			// aapt resource value: 0x7f070046
-			public const int parentPanel = 2131165254;
+			// aapt resource value: 0x7f070048
+			public const int parentPanel = 2131165256;
 			
 			// aapt resource value: 0x7f070029
 			public const int pin = 2131165225;
@@ -2649,32 +3991,35 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070007
 			public const int progress_horizontal = 2131165191;
 			
-			// aapt resource value: 0x7f070054
-			public const int radio = 2131165268;
+			// aapt resource value: 0x7f0700cd
+			public const int psts_tab_title = 2131165389;
+			
+			// aapt resource value: 0x7f070056
+			public const int radio = 2131165270;
+			
+			// aapt resource value: 0x7f070086
+			public const int rdAdmin = 2131165318;
 			
 			// aapt resource value: 0x7f070083
-			public const int rdAdmin = 2131165315;
-			
-			// aapt resource value: 0x7f070080
-			public const int rdBH = 2131165312;
-			
-			// aapt resource value: 0x7f07007e
-			public const int rdNam = 2131165310;
-			
-			// aapt resource value: 0x7f07007f
-			public const int rdNu = 2131165311;
-			
-			// aapt resource value: 0x7f070082
-			public const int rdQLBH = 2131165314;
+			public const int rdBH = 2131165315;
 			
 			// aapt resource value: 0x7f070081
-			public const int rdQLK = 2131165313;
+			public const int rdNam = 2131165313;
+			
+			// aapt resource value: 0x7f070082
+			public const int rdNu = 2131165314;
+			
+			// aapt resource value: 0x7f070085
+			public const int rdQLBH = 2131165317;
+			
+			// aapt resource value: 0x7f070084
+			public const int rdQLK = 2131165316;
 			
 			// aapt resource value: 0x7f070030
 			public const int right = 2131165232;
 			
-			// aapt resource value: 0x7f070070
-			public const int save = 2131165296;
+			// aapt resource value: 0x7f070077
+			public const int save = 2131165303;
 			
 			// aapt resource value: 0x7f070017
 			public const int screen = 2131165207;
@@ -2682,56 +4027,56 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070026
 			public const int scroll = 2131165222;
 			
+			// aapt resource value: 0x7f070050
+			public const int scrollIndicatorDown = 2131165264;
+			
+			// aapt resource value: 0x7f07004d
+			public const int scrollIndicatorUp = 2131165261;
+			
 			// aapt resource value: 0x7f07004e
-			public const int scrollIndicatorDown = 2131165262;
+			public const int scrollView = 2131165262;
 			
-			// aapt resource value: 0x7f07004b
-			public const int scrollIndicatorUp = 2131165259;
-			
-			// aapt resource value: 0x7f07004c
-			public const int scrollView = 2131165260;
-			
-			// aapt resource value: 0x7f070077
-			public const int scrollView1 = 2131165303;
+			// aapt resource value: 0x7f07006b
+			public const int scrollView1 = 2131165291;
 			
 			// aapt resource value: 0x7f070039
 			public const int scrollable = 2131165241;
 			
-			// aapt resource value: 0x7f07005e
-			public const int search_badge = 2131165278;
-			
-			// aapt resource value: 0x7f07005d
-			public const int search_bar = 2131165277;
+			// aapt resource value: 0x7f070060
+			public const int search_badge = 2131165280;
 			
 			// aapt resource value: 0x7f07005f
-			public const int search_button = 2131165279;
-			
-			// aapt resource value: 0x7f070064
-			public const int search_close_btn = 2131165284;
-			
-			// aapt resource value: 0x7f070060
-			public const int search_edit_frame = 2131165280;
-			
-			// aapt resource value: 0x7f070066
-			public const int search_go_btn = 2131165286;
+			public const int search_bar = 2131165279;
 			
 			// aapt resource value: 0x7f070061
-			public const int search_mag_icon = 2131165281;
+			public const int search_button = 2131165281;
+			
+			// aapt resource value: 0x7f070066
+			public const int search_close_btn = 2131165286;
 			
 			// aapt resource value: 0x7f070062
-			public const int search_plate = 2131165282;
-			
-			// aapt resource value: 0x7f070063
-			public const int search_src_text = 2131165283;
-			
-			// aapt resource value: 0x7f070067
-			public const int search_voice_btn = 2131165287;
+			public const int search_edit_frame = 2131165282;
 			
 			// aapt resource value: 0x7f070068
-			public const int select_dialog_listview = 2131165288;
+			public const int search_go_btn = 2131165288;
 			
-			// aapt resource value: 0x7f070053
-			public const int shortcut = 2131165267;
+			// aapt resource value: 0x7f070063
+			public const int search_mag_icon = 2131165283;
+			
+			// aapt resource value: 0x7f070064
+			public const int search_plate = 2131165284;
+			
+			// aapt resource value: 0x7f070065
+			public const int search_src_text = 2131165285;
+			
+			// aapt resource value: 0x7f070069
+			public const int search_voice_btn = 2131165289;
+			
+			// aapt resource value: 0x7f07006a
+			public const int select_dialog_listview = 2131165290;
+			
+			// aapt resource value: 0x7f070055
+			public const int shortcut = 2131165269;
 			
 			// aapt resource value: 0x7f070011
 			public const int showCustom = 2131165201;
@@ -2742,20 +4087,17 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f07006e
-			public const int sit_down = 2131165294;
+			// aapt resource value: 0x7f070090
+			public const int snackbar_action = 2131165328;
 			
-			// aapt resource value: 0x7f07008d
-			public const int snackbar_action = 2131165325;
-			
-			// aapt resource value: 0x7f07008c
-			public const int snackbar_text = 2131165324;
+			// aapt resource value: 0x7f07008f
+			public const int snackbar_text = 2131165327;
 			
 			// aapt resource value: 0x7f070027
 			public const int snap = 2131165223;
 			
-			// aapt resource value: 0x7f070045
-			public const int spacer = 2131165253;
+			// aapt resource value: 0x7f070047
+			public const int spacer = 2131165255;
 			
 			// aapt resource value: 0x7f070008
 			public const int split_action_bar = 2131165192;
@@ -2772,92 +4114,110 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f070031
 			public const int start = 2131165233;
 			
-			// aapt resource value: 0x7f0700be
-			public const int status_bar_latest_event_content = 2131165374;
+			// aapt resource value: 0x7f0700c2
+			public const int status_bar_latest_event_content = 2131165378;
 			
-			// aapt resource value: 0x7f070065
-			public const int submit_area = 2131165285;
+			// aapt resource value: 0x7f070067
+			public const int submit_area = 2131165287;
 			
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f07006d
-			public const int take_out = 2131165293;
+			// aapt resource value: 0x7f07009a
+			public const int tabs = 2131165338;
+			
+			// aapt resource value: 0x7f0700ca
+			public const int text = 2131165386;
+			
+			// aapt resource value: 0x7f0700c8
+			public const int text2 = 2131165384;
+			
+			// aapt resource value: 0x7f07004f
+			public const int textSpacerNoButtons = 2131165263;
+			
+			// aapt resource value: 0x7f070080
+			public const int textView6 = 2131165312;
 			
 			// aapt resource value: 0x7f0700c6
-			public const int text = 2131165382;
+			public const int time = 2131165382;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int text2 = 2131165380;
+			// aapt resource value: 0x7f070045
+			public const int title = 2131165253;
 			
-			// aapt resource value: 0x7f07004d
-			public const int textSpacerNoButtons = 2131165261;
+			// aapt resource value: 0x7f07009d
+			public const int titleBarLinearLayout = 2131165341;
 			
-			// aapt resource value: 0x7f07007d
-			public const int textView6 = 2131165309;
-			
-			// aapt resource value: 0x7f0700c2
-			public const int time = 2131165378;
-			
-			// aapt resource value: 0x7f070043
-			public const int title = 2131165251;
-			
-			// aapt resource value: 0x7f070099
-			public const int titleBarLinearLayout = 2131165337;
-			
-			// aapt resource value: 0x7f070048
-			public const int title_template = 2131165256;
+			// aapt resource value: 0x7f07004a
+			public const int title_template = 2131165258;
 			
 			// aapt resource value: 0x7f070032
 			public const int top = 2131165234;
 			
-			// aapt resource value: 0x7f070047
-			public const int topPanel = 2131165255;
+			// aapt resource value: 0x7f070049
+			public const int topPanel = 2131165257;
 			
-			// aapt resource value: 0x7f07008a
-			public const int touch_outside = 2131165322;
+			// aapt resource value: 0x7f07008d
+			public const int touch_outside = 2131165325;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int txt1 = 2131165348;
+			
+			// aapt resource value: 0x7f07009f
+			public const int txtActionBarText = 2131165343;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int txtDescription = 2131165345;
+			
+			// aapt resource value: 0x7f07007d
+			public const int txtDiaChi = 2131165309;
+			
+			// aapt resource value: 0x7f07007e
+			public const int txtEmail = 2131165310;
+			
+			// aapt resource value: 0x7f07006f
+			public const int txtGiaNhap = 2131165295;
+			
+			// aapt resource value: 0x7f07006d
+			public const int txtMaHH = 2131165293;
+			
+			// aapt resource value: 0x7f070088
+			public const int txtMatKhau = 2131165320;
+			
+			// aapt resource value: 0x7f0700a6
+			public const int txtMnuText = 2131165350;
+			
+			// aapt resource value: 0x7f070071
+			public const int txtMoTa = 2131165297;
 			
 			// aapt resource value: 0x7f0700a0
-			public const int txt1 = 2131165344;
+			public const int txtPage = 2131165344;
 			
-			// aapt resource value: 0x7f07009b
-			public const int txtActionBarText = 2131165339;
+			// aapt resource value: 0x7f07007c
+			public const int txtSDT = 2131165308;
 			
-			// aapt resource value: 0x7f07009d
-			public const int txtDescription = 2131165341;
+			// aapt resource value: 0x7f070070
+			public const int txtSoluong = 2131165296;
 			
-			// aapt resource value: 0x7f07007a
-			public const int txtDiaChi = 2131165306;
+			// aapt resource value: 0x7f070087
+			public const int txtTaiKhoan = 2131165319;
 			
 			// aapt resource value: 0x7f07007b
-			public const int txtEmail = 2131165307;
+			public const int txtTen = 2131165307;
 			
-			// aapt resource value: 0x7f070085
-			public const int txtMatKhau = 2131165317;
+			// aapt resource value: 0x7f07006e
+			public const int txtTenHang = 2131165294;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int txtMnuText = 2131165346;
+			// aapt resource value: 0x7f070072
+			public const int txtTenLoai = 2131165298;
 			
-			// aapt resource value: 0x7f07009c
-			public const int txtPage = 2131165340;
-			
-			// aapt resource value: 0x7f070079
-			public const int txtSDT = 2131165305;
-			
-			// aapt resource value: 0x7f070084
-			public const int txtTaiKhoan = 2131165316;
-			
-			// aapt resource value: 0x7f070078
-			public const int txtTen = 2131165304;
-			
-			// aapt resource value: 0x7f07006c
-			public const int types = 2131165292;
+			// aapt resource value: 0x7f070073
+			public const int txtTenNSX = 2131165299;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
 			
-			// aapt resource value: 0x7f070071
-			public const int update = 2131165297;
+			// aapt resource value: 0x7f070078
+			public const int update = 2131165304;
 			
 			// aapt resource value: 0x7f070014
 			public const int useLogo = 2131165204;
@@ -2865,8 +4225,8 @@ namespace QLKHO.Android
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int volume_item_container = 2131165364;
+			// aapt resource value: 0x7f0700b8
+			public const int volume_item_container = 2131165368;
 			
 			// aapt resource value: 0x7f070022
 			public const int withText = 2131165218;
@@ -3133,22 +4493,25 @@ namespace QLKHO.Android
 			public const int notification_template_part_time = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int Row = 2130903101;
+			public const int psts_tab = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int Row_Kho = 2130903102;
+			public const int Row = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_item_material = 2130903103;
+			public const int Row_Kho = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_multichoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int select_dialog_singlechoice_material = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int support_simple_spinner_dropdown_item = 2130903106;
+			public const int select_dialog_singlechoice_material = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			static Layout()
 			{
@@ -5648,6 +7011,76 @@ namespace QLKHO.Android
 			
 			// aapt resource value: 4
 			public const int NavigationView_menu = 4;
+			
+			public static int[] PagerSlidingTabStrip = new int[] {
+					2130772284,
+					2130772285,
+					2130772286,
+					2130772287,
+					2130772288,
+					2130772289,
+					2130772290,
+					2130772291,
+					2130772292,
+					2130772293,
+					2130772294,
+					2130772295,
+					2130772296,
+					2130772297,
+					2130772298,
+					2130772299,
+					2130772300};
+			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
+			// aapt resource value: 3
+			public const int PagerSlidingTabStrip_pstsDividerWidth = 3;
+			
+			// aapt resource value: 0
+			public const int PagerSlidingTabStrip_pstsIndicatorColor = 0;
+			
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
+			
+			// aapt resource value: 12
+			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
+			
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
+			
+			// aapt resource value: 14
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 14;
+			
+			// aapt resource value: 13
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextStyle = 15;
+			
+			// aapt resource value: 1
+			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
+			
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,
